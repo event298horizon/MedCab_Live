@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin-bottom: 0 !important;
+    font-weight: lighter;
+}
+
+
+.footer {
+    padding: 5rem 10rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.footer section {
+    border: 1px solid black;
+}
+
+.footer section .info .show {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer section .infoCard {
+    width: 21%;
+}
+
+.footer section .info .infoCard p{
+    /* line-height: 0.5rem; */
+    margin: 0;
+    font-weight: lighter;
+}
+
+.footer section .downloadApp .buttons {
+    width: 40%;
+}
+
+.footer section .downloadApp .socials {
+    width: 60%;
+}
+
+.elem img {
+    height: fit-content;
+    margin-right: 1rem;
+}
+
+.elem p {
+    margin-bottom: 0;
+}
+
+
+
