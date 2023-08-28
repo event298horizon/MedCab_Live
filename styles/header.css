@@ -1,0 +1,45 @@
+:root {
+  --primary-clr: #c4364e;
+  --white-clr: #fff;
+  --nav-link-clr: #f89e9e;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.navbar {
+  padding: 0.25rem 3rem;
+  background: #c4364e;
+  color: var(--nav-link);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar .nav-link {
+  color: var(--nav-link-clr);
+}
+.navbar .nav-link.active {
+  color: var(--white-clr);
+}
+.navbar-brand {
+  font-size: 1.6rem;
+}
+.navbar-brand,
+.navbar-brand:hover,
+.nav-item:hover .nav-link {
+  color: var(--white-clr);
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar .nav-booknow {
+  color: var(--primary-clr);
+}
+.nav-ctn-login .nav-link{
+  color: var(--white-clr);
+}
+.nav-ctn-login:hover a {
+  background: var(--white-clr);
+  color: var(--primary-clr);
+}
