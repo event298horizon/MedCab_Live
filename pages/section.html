@@ -17,53 +17,61 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="app-preview">
-      <div
-        class="app-previewTop d-flex justify-content-center py-4 cards"
-      >
-        <div class="bg-white card shadow-lg text-center rounded-5">
-          <h1>2000+</h1>
-          <p>Cities</p>
-        </div>
-        <div class="bg-white card shadow-lg text-center rounded-5">
-          <h1>2000+</h1>
-          <p>Hospitals</p>
-        </div>
-        <div class="bg-white card shadow-lg text-center rounded-5">
-          <h1>2000+</h1>
-          <p>Drivers</p>
-        </div>
-      </div>
-      <div class="app-previewBottom">
-        <div class="heading text-center">
-          <h1 class="text-white">Book & Get Ambulance in 10 Minutes</h1>
-          <a
-            href="#"
-            class="text-decoration-none bg-white rounded-5 shadow-lg px-4 py-2 my-2 cta"
-            >Download MedCab App</a
-          >
-        </div>
-        <div class="image-wrapper">
-          <div class="preview-image">
-            <img src="../images/Wood-Hand.png" alt="" />
+    <div class="smooth-wrapper">
+      <section class="smooth-content app-preview">
+        <div
+          class="app-previewTop d-flex justify-content-center py-4 cards"
+        >
+          <div class="bg-white card shadow-lg text-center rounded-5">
+            <h1>2000+</h1>
+            <p>Cities</p>
           </div>
-          <div class="preview-image">
-            <img src="../images/iPhone 12 Pro (Wooden Hands).png" alt="" />
+          <div class="bg-white card shadow-lg text-center rounded-5">
+            <h1>2000+</h1>
+            <p>Hospitals</p>
           </div>
-          <div class="preview-image">
-            <img src="../images/Wood-Hand-1.png" alt="" />
+          <div class="bg-white card shadow-lg text-center rounded-5">
+            <h1>2000+</h1>
+            <p>Drivers</p>
           </div>
         </div>
-      </div>
-      <!-- White curve background -->
-      <div class="white-curve">
-        <img src="../images/white-curve.png" alt="">
-      </div>
-    </section>
+        <div class="app-previewBottom">
+          <div class="heading text-center">
+            <h1 class="text-white">Book & Get Ambulance in 10 Minutes</h1>
+            <a
+              href="#"
+              class="text-decoration-none bg-white rounded-5 shadow-lg px-4 py-2 my-2 cta"
+              >Download MedCab App</a
+            >
+          </div>
+          <div class="image-wrapper">
+            <div class="preview-image">
+              <img src="../images/Wood-Hand.png" alt="" />
+            </div>
+            <div class="preview-image">
+              <img src="../images/iPhone 12 Pro (Wooden Hands).png" alt="" />
+            </div>
+            <div class="preview-image">
+              <img src="../images/Wood-Hand-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- White curve background -->
+        <div class="white-curve">
+          <img src="../images/white-curve.png" alt="">
+        </div>
+      </section>
+    </div>
     <!-- Our Services -->
     <section class="our-services">
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      
+    </script>
   </body>
 </html>
