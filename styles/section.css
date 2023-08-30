@@ -2,14 +2,12 @@
   --primary-clr: #c4364e;
   --white-clr: #fff;
   --nav-link-clr: #f89e9e;
+  --green-clr: #5eb689;
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-html {
-  font-size: 55%;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -20,15 +18,16 @@ p {
 .app-preview {
   position: relative;
   font-weight: 700;
+  margin-top: 6rem;
 }
 .app-previewTop {
   height: 20rem;
   background: url("../images/wave-bg.png");
-  background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 100% 100%;
+  background-position: center bottom;
   object-fit: cover;
-  gap: 2em;
+  gap: 4em;
 }
 .app-preview .card h1 {
   background: linear-gradient(180deg, #159d89 0%, #223ea2 100%);
@@ -37,18 +36,19 @@ p {
   -webkit-text-fill-color: transparent;
 }
 .app-preview .card {
-  height: 10rem;
-  width: 10rem;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 4rem;
   display: grid;
   place-items: center;
   place-content: center;
 }
 .app-preview .card h1 {
-  font-size: 2rem;
+  font-size: clamp(2rem, 2.5vw, 3rem);
   font-weight: 700;
 }
 .app-preview .card p {
-  font-size: 1.6rem;
+  font-size: clamp(1.4rem, 1.5vw, 1.8rem);
 }
 
 /* App preview bottom  */
@@ -56,10 +56,13 @@ p {
   background: var(--primary-clr);
 }
 .app-previewBottom .heading h1 {
+  font-size: clamp(2rem, 2.8vw, 4rem);
   margin-bottom: 1em;
+  font-weight: 700;
 }
 .app-previewBottom .heading .cta {
-  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 1.5vw, 1.8rem);
+  padding: 1rem 2rem;
   color: var(--primary-clr);
 }
 .app-previewBottom .image-wrapper {
@@ -67,10 +70,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 5em;
   padding: 0 4em;
 }
-.app-preview .image-wrapper .preview-image{
+.app-preview .image-wrapper .preview-image {
   z-index: 1;
 }
 .app-preview .image-wrapper img {
@@ -86,44 +89,56 @@ p {
   position: absolute;
   margin-top: -10em;
   bottom: 0;
-  /* height: 20rem;
-  background: url("../images/white-curve.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 150%; */
 }
-.white-curve img{
+.white-curve img {
   width: 100%;
 }
 /* Our Services */
 
-@media all and (min-width: 480px) {
-  html {
-    font-size: 65%;
-  }
-  .app-previewTop {
-    background-size: 125%;
+@media all and (max-width: 1025px) {
+  .app-preview .card {
+    height: 14rem;
+    width: 14rem;
   }
 }
-@media all and (min-width: 780px) {
-  html {
-    font-size: 75%;
+
+@media all and (max-width: 780px) {
+  .app-previewTop {
+    height: 16rem;
   }
   .app-previewBottom .image-wrapper {
-    gap: 4em;
+    gap: 2em;
+  }
+  .app-preview .card {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 2rem;
   }
   .app-previewTop {
-    background-size: 120%;
-    /* background-position: center bottom; */
-    gap: 4em;
+    gap: 2em;
   }
 }
-@media all and (min-width: 1025px) {
-  html {
-    font-size: 85%;
+@media all and (max-width: 480px) {
+  .app-preview .card {
+    height: 10rem;
+    width: 10rem;
   }
-  .app-previewTop {
-    background-size: 100% 100%;
-    /* background-position: center bottom; */
+  .app-previewBottom .image-wrapper {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 360px) {
+  .app-preview .cards {
+    gap: 1rem;
+  }
+  .app-preview .card {
+    height: 9rem;
+    width: 9rem;
+  }
+  .app-preview .card h1 {
+    font-size: 5vw;
+  }
+  .app-preview .card p {
+    font-size: 3vw;
   }
 }
