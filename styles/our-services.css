@@ -1,0 +1,26 @@
+:root {
+  --fs-main-heading: clamp(2rem, 5vw, 4rem);
+  --fs-sub-heading: clamp(2rem, 4vw, 3rem);
+  --fs-primary-text: clamp(1.4rem, 2.5vw, 1.8rem);
+}
+.our-services{
+    padding-top: 15rem;
+}
+.our-services h1{
+    font-size: var(--fs-main-heading);
+    font-weight: 700;
+}
+.our-services .our-servicesCards{
+    padding: 0 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.our-servicesCards .our-servicesCard{
+    padding: 3rem;
+    border-radius: 2rem;
+    background: white;
+    box-shadow: 0px 4px 20px 0px rgba(34, 62, 162, 0.25);
+    text-align: center;
+}

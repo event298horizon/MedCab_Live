@@ -3,6 +3,11 @@
   --white-clr: #fff;
   --nav-link-clr: #f89e9e;
   --green-clr: #5eb689;
+
+  --fs-main-heading: clamp(2rem, 5vw, 4rem);
+  --fs-sub-heading: clamp(2rem, 4vw, 3rem);
+  --fs-primary-text: clamp(1.4rem, 2.5vw, 1.8rem);
+  /* -fs-secondary-text: ; */
 }
 * {
   padding: 0;
@@ -44,11 +49,11 @@ p {
   place-content: center;
 }
 .app-preview .card h1 {
-  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-size: var(--fs-sub-heading);
   font-weight: 700;
 }
 .app-preview .card p {
-  font-size: clamp(1.4rem, 1.5vw, 1.8rem);
+  font-size: var(--fs-primary-text);
 }
 
 /* App preview bottom  */
@@ -56,12 +61,12 @@ p {
   background: var(--primary-clr);
 }
 .app-previewBottom .heading h1 {
-  font-size: clamp(2rem, 2.8vw, 4rem);
+  font-size: var(--fs-main-heading);
   margin-bottom: 1em;
   font-weight: 700;
 }
 .app-previewBottom .heading .cta {
-  font-size: clamp(1.4rem, 1.5vw, 1.8rem);
+  font-size: var(--fs-primary-text);
   padding: 1rem 2rem;
   color: var(--primary-clr);
 }
@@ -103,6 +108,11 @@ p {
 }
 
 @media all and (max-width: 780px) {
+  :root {
+    --fs-main-heading: clamp(1.8rem, 5vw, 3rem);
+    --fs-sub-heading: clamp(1.6rem, 4vw, 2.4rem);
+    --fs-primary-text: clamp(1.25rem, 2.5vw, 1.6rem);
+  }
   .app-previewTop {
     height: 16rem;
   }
@@ -118,7 +128,19 @@ p {
     gap: 2em;
   }
 }
+@media all and (max-width: 580px) {
+  :root {
+    --fs-main-heading: clamp(1.8rem, 5vw, 3rem);
+    --fs-sub-heading: clamp(1.6rem, 4vw, 2.4rem);
+    --fs-primary-text: clamp(1.25rem, 2.5vw, 1.6rem);
+  }
+}
 @media all and (max-width: 480px) {
+  :root {
+    --fs-main-heading: clamp(1.6rem, 5vw, 2.4rem);
+    --fs-sub-heading: clamp(1.4rem, 4vw, 2.6rem);
+    --fs-primary-text: clamp(1.2rem, 2.5vw, 1.4rem);
+  }
   .app-preview .card {
     height: 10rem;
     width: 10rem;
@@ -128,6 +150,11 @@ p {
   }
 }
 @media all and (max-width: 360px) {
+  :root {
+    --fs-main-heading: clamp(1.4rem, 5vw, 2rem);
+    --fs-sub-heading: clamp(1.2rem, 4vw, 2.4rem);
+    --fs-primary-text: clamp(1rem, 2.5vw, 1.2rem);
+  }
   .app-preview .cards {
     gap: 1rem;
   }

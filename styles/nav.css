@@ -60,8 +60,10 @@ html {
 
 @media all and (max-width: 780px) {
 }
+
 @media all and (max-width: 480px) {
   .navbar {
     padding: 0.5rem 1rem;
   }
 }
+  
