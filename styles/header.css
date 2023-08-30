@@ -20,6 +20,7 @@
 }
 .header-booking {
   box-shadow: 0px 3px 10px 0 rgb(255, 212, 212);
+  border: 1px solid var(--border-light-clr);
   border-radius: 1rem;
   background: white;
 }
@@ -28,7 +29,7 @@
   padding: 0.6rem 1.5rem;
   color: var(--dark-grey-clr);
   text-decoration: none;
-  border: 2px solid var(--border-light-clr);
+  border: 1px solid var(--border-light-clr);
   margin-right: 0.6rem;
   font-size: var(--fs-header);
 }
@@ -81,6 +82,7 @@
 }
 .header-ctaBox {
   box-shadow: 0px 3px 10px 0 rgb(255, 212, 212);
+  border: 1px solid var(--border-light-clr);
   border-radius: 10rem;
   padding: 0.8rem 1rem;
   display: flex;
@@ -202,7 +204,7 @@
   .header .booking-option a {
     border-radius: 0.5rem !important ;
     padding: 0.5rem;
-    margin-right: .25rem;
+    margin-right: 0.25rem;
   }
   .header-ctaBox {
     flex-direction: column;

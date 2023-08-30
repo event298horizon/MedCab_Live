@@ -1,0 +1,36 @@
+:root {
+  --fs-main-heading: clamp(2.4rem, 5vw, 4rem);
+  --fs-sub-heading: clamp(2rem, 4vw, 3rem);
+  --fs-primary-text: clamp(1.4rem, 2.5vw, 1.8rem);
+  --fs-secondary-text: clamp(1.2rem, 1.5vw, 1.4rem);
+}
+
+@media all and (max-width: 980px) {
+  :root {
+    --fs-main-heading: clamp(2.2rem, 3vw, 3.2rem);
+    --fs-sub-heading: clamp(1.6rem, 3vw, 2.4rem);
+    --fs-primary-text: clamp(1.25rem, 2.25vw, 1.6rem);
+    --fs-secondary-text: clamp(1.2rem, 1.25vw, 1.2rem);
+  }
+}
+
+@media all and (max-width: 780px) {
+  :root {
+    --fs-main-heading: clamp(2.2rem, 3vw, 3.2rem);
+    --fs-sub-heading: clamp(1.4rem, 2.5vw, 2.6rem);
+    --fs-primary-text: clamp(1.2rem, 2vw, 1.4rem);
+    --fs-secondary-text: clamp(1.2rem, 1.25vw, 1.1rem);
+  }
+}
+
+@media all and (max-width: 580px) {
+  :root {
+    --fs-main-heading: clamp(2.2rem, 3vw, 3.2rem);
+    --fs-sub-heading: clamp(1.4rem, 2.5vw, 2.6rem);
+    --fs-primary-text: clamp(1.4rem, 2.2vw, 1.6rem);
+    --fs-secondary-text: clamp(1.2rem, 2vw, 1.2rem);
+  }
+}
+
+@media all and (max-width: 480px) {
+}

@@ -1,264 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Custom Css -->
-  <link rel="stylesheet" href="./styles/nav.css" />
-  <link rel="stylesheet" href="./styles/section.css" />
-  <link rel="stylesheet" href="./styles/header.css" />
-  <link rel="stylesheet" href="./styles/our-services.css">
-  <link rel="stylesheet" href="./styles/footer.css" />
+    <!-- Crousel Styles -->
+    <link rel="stylesheet" href="./styles/owl-styles/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/owl-styles/owl.theme.default.min.css"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
-  <title>Header</title>
-</head>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/section.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/our-services.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/fs-media.css" />
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <span>
-          <img src="../images/logo.png" class="mb-1" alt="" />
-        </span>
-        MedCab</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ambulances</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Hospitals</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Join Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-ctn-book">
-            <a class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1" href="#" tabindex="-1"
-              aria-disabled="true">Book Now</a>
-          </li>
-          <li class="nav-ctn-login text-white">
-            <button type="button" class="btn btn-primary nav-link border border-white rounded px-4 py-1"
-              data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#" tabindex="-1" aria-disabled="true">
-              Login
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <title>Header</title>
+  </head>
 
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header bg-danger py-4">
-          <div class="container-fluid p-0">
-            <a class="navbar-brand" href="#">
-              <span>
-                <img src="../images/logo.png" class="mb-1" alt="" />
-              </span>
-              MedCab</a>
-          </div>
-          <button type="button" class="btn bg-white text-grey text-xl" data-bs-dismiss="modal" aria-label="Close">
-            X
-          </button>
-        </div>
-        <div class="modal-body">
-          <form class="form">
-            <label for="" class="form-label">Log in to Proceed</label>
-            <input class="form-control" placeholder="Enter Your Phone Number" type="text" />
-            <a class="modal-footer">
-              <button type="submit" class="btn btn-primary">Verify</button>
-            </a>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Header -->
-  <header class="header">
-    <div class="header-small-hero">
-      <h1 class="header-text">
-        <span>One Stop Solution</span><br />
-        for all of your<br />
-        <span>Ambulance Needs</span>
-      </h1>
-      <div class="header-small-heroImage">
-        <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
-      </div>
-    </div>
-    <div class="header-wrapper">
-      <div class="header-left">
-        <div class="header-booking p-4">
-          <div class="booking-option text-white mb-3">
-            <a href="#" class="border-1 rounded-5 active">Emergency</a>
-            <a href="#" class="'border-1 rounded-5">Bulk</a>
-            <a href="#" class="'border-1 rounded-5">Rent</a>
-          </div>
-          <form class="header-bookingForm">
-            <div class="mb-4">
-              <label for="exampleInputEmail1" class="form-label">Pickup Location</label>
-              <div class="input-wrapper">
-                <span>
-                  <img src="./images/location.png" alt="" />
-                </span>
-                <input type="text" class="form-control shadow-none outline-none" id="exampleInputEmail1"
-                  aria-describedby="emailHelp" placeholder="Enter Pickup Address Here" />
-              </div>
-            </div>
-            <div class="mb-4">
-              <label for="exampleInputPassword1" class="form-label">Drop Location</label>
-              <div class="input-wrapper">
-                <span><img src="./images/drop-locatino.png" alt="" /></span>
-                <input type="text" class="form-control shadow-none outline-none" id="exampleInputPassword1"
-                  placeholder="Enter Destination Adress here" />
-              </div>
-            </div>
-            <div class="mt-5 booking-submit">
-              <button class="border rounded p-1 booking-time">
-                <span><img src="./images/Access time.png" alt="" /></span>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span>
+            <img src="../images/logo.png" class="mb-1" alt="" />
+          </span>
+          MedCab</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ambulances</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hospitals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-ctn-book">
+              <a
+                class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Book Now</a
+              >
+            </li>
+            <li class="nav-ctn-login text-white">
+              <button
+                type="button"
+                class="btn btn-primary nav-link border border-white rounded px-4 py-1"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+              >
+                Login
               </button>
-              <button type="submit" class="btn">Search Ambulance</button>
-            </div>
-          </form>
+            </li>
+          </ul>
         </div>
-        <div class="header-cta">
-          <div class="header-ctaBox mt-4">
-            <span><img src="./images/call.png" alt="" /></span>
-            <a href="#">Call Emergency 18008-908-208</a>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-danger py-4">
+            <div class="container-fluid p-0">
+              <a class="navbar-brand" href="#">
+                <span>
+                  <img src="../images/logo.png" class="mb-1" alt="" />
+                </span>
+                MedCab</a
+              >
+            </div>
+            <button
+              type="button"
+              class="btn bg-white text-grey text-xl"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              X
+            </button>
           </div>
-          <div class="header-ctaBox mt-4">
-            <span><img src="./images/hospital-cehck.png" alt="" /></span>
-            <a href="#">Check Hospitals Availability</a>
+          <div class="modal-body">
+            <form class="form">
+              <label for="" class="form-label">Log in to Proceed</label>
+              <input
+                class="form-control"
+                placeholder="Enter Your Phone Number"
+                type="text"
+              />
+              <a class="modal-footer">
+                <button type="submit" class="btn btn-primary">Verify</button>
+              </a>
+            </form>
           </div>
         </div>
       </div>
-      <div class="header-right">
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-small-hero">
         <h1 class="header-text">
           <span>One Stop Solution</span><br />
           for all of your<br />
           <span>Ambulance Needs</span>
         </h1>
+        <div class="header-small-heroImage">
+          <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
+        </div>
       </div>
-    </div>
-    <div class="header-image">
-      <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
-    </div>
-  </header>
+      <div class="header-wrapper">
+        <div class="header-left">
+          <div class="header-booking p-4">
+            <div class="booking-option text-white mb-3">
+              <a href="#" class="border-1 rounded-5 active">Emergency</a>
+              <a href="#" class="'border-1 rounded-5">Bulk</a>
+              <a href="#" class="'border-1 rounded-5">Rent</a>
+            </div>
+            <form class="header-bookingForm">
+              <div class="mb-4">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Pickup Location</label
+                >
+                <div class="input-wrapper">
+                  <span>
+                    <img src="./images/location.png" alt="" />
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control shadow-none outline-none"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter Pickup Address Here"
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Drop Location</label
+                >
+                <div class="input-wrapper">
+                  <span><img src="./images/drop-locatino.png" alt="" /></span>
+                  <input
+                    type="text"
+                    class="form-control shadow-none outline-none"
+                    id="exampleInputPassword1"
+                    placeholder="Enter Destination Adress here"
+                  />
+                </div>
+              </div>
+              <div class="mt-5 booking-submit">
+                <button class="border rounded p-1 booking-time">
+                  <span><img src="./images/Access time.png" alt="" /></span>
+                </button>
+                <button type="submit" class="btn">Search Ambulance</button>
+              </div>
+            </form>
+          </div>
+          <div class="header-cta">
+            <div class="header-ctaBox mt-4">
+              <span><img src="./images/call.png" alt="" /></span>
+              <a href="#">Call Emergency 18008-908-208</a>
+            </div>
+            <div class="header-ctaBox mt-4">
+              <span><img src="./images/hospital-cehck.png" alt="" /></span>
+              <a href="#">Check Hospitals Availability</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <h1 class="header-text">
+            <span>One Stop Solution</span><br />
+            for all of your<br />
+            <span>Ambulance Needs</span>
+          </h1>
+        </div>
+      </div>
+      <div class="header-image">
+        <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
+      </div>
+    </header>
 
-  <!-- Book & Get Ambulance -->
-  <section class="app-preview">
-    <div class="app-previewTop d-flex justify-content-center py-4 px-2 cards">
-      <div class="bg-white card shadow-lg text-center">
-        <h1>2000+</h1>
-        <p>Cities</p>
-      </div>
-      <div class="bg-white card shadow-lg text-center">
-        <h1>2000+</h1>
-        <p>Hospitals</p>
-      </div>
-      <div class="bg-white card shadow-lg text-center">
-        <h1>2000+</h1>
-        <p>Drivers</p>
-      </div>
-    </div>
-    <div class="app-previewBottom">
-      <div class="heading text-center">
-        <h1 class="text-white">Book & Get Ambulance in 10 Minutes</h1>
-        <a href="#" class="text-decoration-none bg-white rounded-5 shadow-lg my-2 cta">Download MedCab App</a>
-      </div>
-      <div class="image-wrapper">
-        <div class="preview-image">
-          <img src="../images/Wood-Hand.png" alt="" />
+    <!-- Book & Get Ambulance -->
+    <section class="app-preview">
+      <div class="app-previewTop d-flex justify-content-center py-4 px-2 cards">
+        <div class="bg-white card shadow-lg text-center">
+          <h1>2000+</h1>
+          <p>Cities</p>
         </div>
-        <div class="preview-image">
-          <img src="../images/iPhone 12 Pro (Wooden Hands).png" alt="" />
+        <div class="bg-white card shadow-lg text-center">
+          <h1>2000+</h1>
+          <p>Hospitals</p>
         </div>
-        <div class="preview-image">
-          <img src="../images/Wood-Hand-1.png" alt="" />
+        <div class="bg-white card shadow-lg text-center">
+          <h1>2000+</h1>
+          <p>Drivers</p>
         </div>
       </div>
-    </div>
-    <!-- White curve background -->
-    <div class="white-curve">
-      <img src="../images/white-curve.png" alt="" />
-    </div>
-  </section>
+      <div class="app-previewBottom">
+        <div class="heading text-center">
+          <h1 class="text-white">Book & Get Ambulance in 10 Minutes</h1>
+          <a
+            href="#"
+            class="text-decoration-none bg-white rounded-5 shadow-lg my-2 cta"
+            >Download MedCab App</a
+          >
+        </div>
+        <div class="image-wrapper">
+          <div class="preview-image">
+            <img src="../images/Wood-Hand.png" alt="" />
+          </div>
+          <div class="preview-image">
+            <img src="../images/iPhone 12 Pro (Wooden Hands).png" alt="" />
+          </div>
+          <div class="preview-image">
+            <img src="../images/Wood-Hand-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- White curve background -->
+      <div class="white-curve">
+        <img src="../images/white-curve.png" alt="" />
+      </div>
+    </section>
 
-  <!-- Our Services -->
-  <section class="our-services">
-    <h1 class="our-services-heading text-center">
-      Our Services
-    </h1>
-    <div class="our-servicesCards">
-      <div class="our-servicesCard">
-        <h2>Air Ambulace</h2>
-        <img src="./images/Component 11-1.png" alt="">
-        <p>Designed to transport critically ill patients who require specialized medical care during transportation.</p>
-        <div class="service-icons">
-          <div class="icon"><img src="./images/Group 72.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 161.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 81.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 148.png" alt=""></div>
+    <!-- Our Services -->
+    <section class="our-services">
+      <h1 class="our-services-heading text-center">Our Services</h1>
+      <div class="our-servicesCards owl-carousel">
+        <div class="our-servicesCard item">
+          <h2>Air Ambulace</h2>
+          <img src="./images/Component 11-1.png" alt="" />
+          <p>
+            Designed to transport critically ill patients who require
+            specialized medical care during transportation.
+          </p>
+          <div class="service-icons">
+            <div class="icon"><img src="./images/Group 72.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 161.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 81.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 148.png" alt="" /></div>
+          </div>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="our-servicesCard item">
+          <h2>Basic Ambulace</h2>
+          <img src="./images/Component 11-1.png" alt="" />
+          <p>
+            Designed to transport critically ill patients who require
+            specialized medical care during transportation.
+          </p>
+          <div class="service-icons">
+            <div class="icon"><img src="./images/Group 72.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 161.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 81.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 148.png" alt="" /></div>
+          </div>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="our-servicesCard item">
+          <h2>Basic Ambulace</h2>
+          <img src="./images/Component 11-1.png" alt="" />
+          <p>
+            Designed to transport critically ill patients who require
+            specialized medical care during transportation.
+          </p>
+          <div class="service-icons">
+            <div class="icon"><img src="./images/Group 72.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 161.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 81.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 148.png" alt="" /></div>
+          </div>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="our-servicesCard item">
+          <h2>Advance Ambulace</h2>
+          <img src="./images/Component 11-2.png" alt="" />
+          <p>
+            Designed to transport critically ill patients who require
+            specialized medical care during transportation.
+          </p>
+          <div class="service-icons">
+            <div class="icon"><img src="./images/Group 72.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 161.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 81.png" alt="" /></div>
+            <div class="icon"><img src="./images/Group 148.png" alt="" /></div>
+          </div>
+          <a href="#" class="read-more">Read More</a>
         </div>
       </div>
-      <div class="our-servicesCard">
-        <h2>Air Ambulace</h2>
-        <img src="./images/Component 11-1.png" alt="">
-        <p>Designed to transport critically ill patients who require specialized medical care during transportation.</p>
-        <div class="service-icons">
-          <div class="icon"><img src="./images/Group 72.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 161.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 81.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 148.png" alt=""></div>
-        </div>
-      </div>
-      <div class="our-servicesCard">
-        <h2>Air Ambulace</h2>
-        <img src="./images/Component 11-1.png" alt="">
-        <p>Designed to transport critically ill patients who require specialized medical care during transportation.</p>
-        <div class="service-icons">
-          <div class="icon"><img src="./images/Group 72.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 161.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 81.png" alt=""></div>
-          <div class="icon"><img src="./images/Group 148.png" alt=""></div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- footer -->
-<!-- 
+    <!-- footer -->
+    <!-- 
   <footer class="footer px-5 py-5">
     <section class="d-flex flex-column align-items-center">
       <div class="cityNames d-flex flex-column w-100 py-2 border-bottom ">
@@ -422,11 +515,37 @@
     </section>
   </footer> -->
 
-
-
-
-  <script src="../scripts/footer.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="./scripts/footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Owl Crousel -->
+    <script src="./scripts/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 2,
+            },
+            800: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
 </html>
