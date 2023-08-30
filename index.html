@@ -1,278 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-    />
 
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="./styles/nav.css" />
-    <link rel="stylesheet" href="./styles/section.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Header</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <span>
-            <img src="../images/logo.png" class="mb-1" alt="" />
-          </span>
-          MedCab</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ambulances</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hospitals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Join Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-ctn-book">
-              <a
-                class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Book Now</a
-              >
-            </li>
-            <li class="nav-ctn-login text-white">
-              <button
-                type="button"
-                class="btn btn-primary nav-link border border-white rounded px-4 py-1"
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Login
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="./styles/nav.css" />
+  <link rel="stylesheet" href="./styles/section.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="staticBackdrop"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header bg-danger py-4">
-            <div class="container-fluid p-0">
-              <a class="navbar-brand" href="#">
-                <span>
-                  <img src="../images/logo.png" class="mb-1" alt="" />
-                </span>
-                MedCab</a
-              >
-            </div>
-            <button
-              type="button"
-              class="btn bg-white text-grey text-xl"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              X
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Header</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span>
+          <img src="../images/logo.png" class="mb-1" alt="" />
+        </span>
+        MedCab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ambulances</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hospitals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-ctn-book">
+            <a class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1" href="#" tabindex="-1"
+              aria-disabled="true">Book Now</a>
+          </li>
+          <li class="nav-ctn-login text-white">
+            <button type="button" class="btn btn-primary nav-link border border-white rounded px-4 py-1"
+              data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#" tabindex="-1" aria-disabled="true">
+              Login
             </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-danger py-4">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="#">
+              <span>
+                <img src="../images/logo.png" class="mb-1" alt="" />
+              </span>
+              MedCab</a>
           </div>
-          <div class="modal-body">
-            <form class="form">
-              <label for="" class="form-label">Log in to Proceed</label>
-              <input
-                class="form-control"
-                placeholder="Enter Your Phone Number"
-                type="text"
-              />
-              <a class="modal-footer">
-                <button type="submit" class="btn btn-primary">Verify</button>
-              </a>
-            </form>
-          </div>
+          <button type="button" class="btn bg-white text-grey text-xl" data-bs-dismiss="modal" aria-label="Close">
+            X
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <label for="" class="form-label">Log in to Proceed</label>
+            <input class="form-control" placeholder="Enter Your Phone Number" type="text" />
+            <a class="modal-footer">
+              <button type="submit" class="btn btn-primary">Verify</button>
+            </a>
+          </form>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Header -->
-    <header class="header">
-      <div class="header-small-hero">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-small-hero">
+      <h1 class="header-text">
+        <span>One Stop Solution</span><br />
+        for all of your<br />
+        <span>Ambulance Needs</span>
+      </h1>
+      <div class="header-small-heroImage">
+        <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
+      </div>
+    </div>
+    <div class="header-wrapper">
+      <div class="header-left">
+        <div class="header-booking p-4">
+          <div class="booking-option text-white mb-3">
+            <a href="#" class="border-1 rounded-5 active">Emergency</a>
+            <a href="#" class="'border-1 rounded-5">Bulk</a>
+            <a href="#" class="'border-1 rounded-5">Rent</a>
+          </div>
+          <form class="header-bookingForm">
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label">Pickup Location</label>
+              <div class="input-wrapper">
+                <span>
+                  <img src="./images/location.png" alt="" />
+                </span>
+                <input type="text" class="form-control shadow-none outline-none" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" placeholder="Enter Pickup Address Here" />
+              </div>
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">Drop Location</label>
+              <div class="input-wrapper">
+                <span><img src="./images/drop-locatino.png" alt="" /></span>
+                <input type="text" class="form-control shadow-none outline-none" id="exampleInputPassword1"
+                  placeholder="Enter Destination Adress here" />
+              </div>
+            </div>
+            <div class="mt-5 booking-submit">
+              <button class="border rounded p-1 booking-time">
+                <span><img src="./images/Access time.png" alt="" /></span>
+              </button>
+              <button type="submit" class="btn">Search Ambulance</button>
+            </div>
+          </form>
+        </div>
+        <div class="header-cta">
+          <div class="header-ctaBox mt-4">
+            <span><img src="./images/call.png" alt="" /></span>
+            <a href="#">Call Emergency 18008-908-208</a>
+          </div>
+          <div class="header-ctaBox mt-4">
+            <span><img src="./images/hospital-cehck.png" alt="" /></span>
+            <a href="#">Check Hospitals Availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-right">
         <h1 class="header-text">
           <span>One Stop Solution</span><br />
           for all of your<br />
           <span>Ambulance Needs</span>
         </h1>
-        <div class="header-small-heroImage">
-          <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
-        </div>
       </div>
-      <div class="header-wrapper">
-        <div class="header-left">
-          <div class="header-booking p-4">
-            <div class="booking-option text-white mb-3">
-              <a href="#" class="border-1 rounded-5 active">Emergency</a>
-              <a href="#" class="'border-1 rounded-5">Bulk</a>
-              <a href="#" class="'border-1 rounded-5">Rent</a>
-            </div>
-            <form class="header-bookingForm">
-              <div class="mb-4">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Pickup Location</label
-                >
-                <div class="input-wrapper">
-                  <span>
-                    <img src="./images/location.png" alt="" />
-                  </span>
-                  <input
-                    type="text"
-                    class="form-control shadow-none outline-none"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                    placeholder="Enter Pickup Address Here"
-                  />
-                </div>
-              </div>
-              <div class="mb-4">
-                <label for="exampleInputPassword1" class="form-label"
-                  >Drop Location</label
-                >
-                <div class="input-wrapper">
-                  <span><img src="./images/drop-locatino.png" alt="" /></span>
-                  <input
-                    type="text"
-                    class="form-control shadow-none outline-none"
-                    id="exampleInputPassword1"
-                    placeholder="Enter Destination Adress here"
-                  />
-                </div>
-              </div>
-              <div class="mt-5 booking-submit">
-                <button class="border rounded p-1 booking-time">
-                  <span><img src="./images/Access time.png" alt="" /></span>
-                </button>
-                <button type="submit" class="btn">Search Ambulance</button>
-              </div>
-            </form>
-          </div>
-          <div class="header-cta">
-            <div class="header-ctaBox mt-4">
-              <span><img src="./images/call.png" alt="" /></span>
-              <a href="#">Call Emergency 18008-908-208</a>
-            </div>
-            <div class="header-ctaBox mt-4">
-              <span><img src="./images/hospital-cehck.png" alt="" /></span>
-              <a href="#">Check Hospitals Availability</a>
-            </div>
-          </div>
-        </div>
-        <div class="header-right">
-          <h1 class="header-text">
-            <span>One Stop Solution</span><br />
-            for all of your<br />
-            <span>Ambulance Needs</span>
-          </h1>
-        </div>
-      </div>
-      <div class="header-image">
-        <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
-      </div>
-    </header>
+    </div>
+    <div class="header-image">
+      <img src="./images/website-gif-final.gif" class="img-fluid" alt="" />
+    </div>
+  </header>
 
-    <!-- Book & Get Ambulance -->
-    <section class="app-preview">
-      <div class="app-previewTop d-flex justify-content-center py-4 px-2 cards">
-        <div class="bg-white card shadow-lg text-center">
-          <h1>2000+</h1>
-          <p>Cities</p>
+  <!-- Book & Get Ambulance -->
+  <section class="app-preview">
+    <div class="app-previewTop d-flex justify-content-center py-4 px-2 cards">
+      <div class="bg-white card shadow-lg text-center">
+        <h1>2000+</h1>
+        <p>Cities</p>
+      </div>
+      <div class="bg-white card shadow-lg text-center">
+        <h1>2000+</h1>
+        <p>Hospitals</p>
+      </div>
+      <div class="bg-white card shadow-lg text-center">
+        <h1>2000+</h1>
+        <p>Drivers</p>
+      </div>
+    </div>
+    <div class="app-previewBottom">
+      <div class="heading text-center">
+        <h1 class="text-white">Book & Get Ambulance in 10 Minutes</h1>
+        <a href="#" class="text-decoration-none bg-white rounded-5 shadow-lg my-2 cta">Download MedCab App</a>
+      </div>
+      <div class="image-wrapper">
+        <div class="preview-image">
+          <img src="../images/Wood-Hand.png" alt="" />
         </div>
-        <div class="bg-white card shadow-lg text-center">
-          <h1>2000+</h1>
-          <p>Hospitals</p>
+        <div class="preview-image">
+          <img src="../images/iPhone 12 Pro (Wooden Hands).png" alt="" />
         </div>
-        <div class="bg-white card shadow-lg text-center">
-          <h1>2000+</h1>
-          <p>Drivers</p>
+        <div class="preview-image">
+          <img src="../images/Wood-Hand-1.png" alt="" />
         </div>
       </div>
-      <div class="app-previewBottom">
-        <div class="heading text-center">
-          <h1 class="text-white">Book & Get Ambulance in 10 Minutes</h1>
-          <a
-            href="#"
-            class="text-decoration-none bg-white rounded-5 shadow-lg my-2 cta"
-            >Download MedCab App</a
-          >
-        </div>
-        <div class="image-wrapper">
-          <div class="preview-image">
-            <img src="../images/Wood-Hand.png" alt="" />
-          </div>
-          <div class="preview-image">
-            <img src="../images/iPhone 12 Pro (Wooden Hands).png" alt="" />
-          </div>
-          <div class="preview-image">
-            <img src="../images/Wood-Hand-1.png" alt="" />
+    </div>
+    <!-- White curve background -->
+    <div class="white-curve">
+      <img src="../images/white-curve.png" alt="" />
+    </div>
+  </section>
+
+
+  <!-- Our Services -->
+  <section class="our-services"></section>
+
+  <!-- footer -->
+
+  <footer class="footer px-5 py-5">
+    <section class="d-flex flex-column align-items-center">
+      <div class="cityNames d-flex flex-column w-100 py-2 border-bottom ">
+        <div class="d-flex justify-content-between w-100">
+
+
+          <div class="cities d-flex flex-column w-100">
+            <div id="hideShow">
+              <p><span>
+                  <h6>AVAILABLE IN</h6>
+                </span>City Name | City Name | City Name | City Name | City Name | City Name | City Name
+                | City
+                Name
+                | City Name | City Name | City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name | City Name | City Name | City
+                Name
+                | City Name | City Name | City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name</p>
+            </div>
+
+
+
+            <button onclick="show()" id="hideShowBtn" class="btn text-white shadow-none" type="button"
+              data-bs-toggle="collapse" data-bs-target="#cityCollapse" aria-expanded="false"
+              aria-controls="cityCollapse">Show
+              more</button>
           </div>
         </div>
       </div>
-      <!-- White curve background -->
-      <div class="white-curve">
-        <img src="../images/white-curve.png" alt="" />
+      <div class="bookAmbulance d-flex flex-column align-items-center py-2 w-100 border-bottom">
+        <div>
+          <h6>BOOK AMBULANCE</h6>
+        </div>
+        <div class="text-center">
+          <a href="">Basic Ambulace |</a>
+          <a href="">Advance Ambulace |</a>
+          <a href="">ICU Ambulace |</a>
+          <a href="">E-Ambulace |</a>
+          <a href="">Medical First Responder |</a>
+          <a href="">Rent Ambulace |</a>
+          <a href="">Bulk Ambulace</a>
+        </div>
       </div>
+      <div class="info w-100 d-flex flex-column py-2 border-bottom">
+        <div class="show mb-2">
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6>INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+        </div>
+
+        <button onclick="showMoreInfo()" id="infoBtn" class="btn text-white text-none shadow-none" type="button"
+          data-bs-toggle="collapse" data-bs-target="#infoCollapse" aria-expanded="false"
+          aria-controls="infoCollapse">Show
+          more</button>
+
+
+      </div>
+      <div class="downloadApp d-flex w-100 py-2 border-bottom">
+        <div class="buttons">
+          <button class="btn shadow-none"><img src="../images/playBtn.png" alt="play store"></button>
+          <button class="btn shadow-none"><img src="../images/appBtn.png" alt=""></button>
+        </div>
+        <div class="socials d-flex gap-3 align-items-center justify-content-end gap-1 py-2">
+          <img src="../images/icons/facebook.png" alt="">
+          <img src="../images/icons/insta.png" alt="">
+          <img src="../images/icons/insta.png" alt="">
+          <img src="../images/icons/linkedin.png" alt="">
+          <img src="../images/icons/linkedin.png" alt="">
+          <img src="../images/icons/twitter.png" alt="">
+        </div>
+      </div>
+      <div class="contact d-flex justify-content-start w-100 py-2 border-bottom">
+        <p class=""><span><a href="">Contact Us |</a><a href=""> Terms of Use |</a><a href=""> Privacy
+              Policy |</a><a href=""> Refund
+              Policy |</a><a href=""> Service Legal Agreement for Vendor/ Driver
+              |</a><a href="">
+              Career |</a><a href=""> Mobile
+              App |</a><a href=""> Media
+              Coverage |</a><a href=""> B2B
+              Partner |</a></span></p>
+      </div>
+      <div class="address d-flex justify-content-between w-100 py-2 border-bottom">
+        <div class="elem d-flex align-items-center">
+          <img src="../images/icons/location.png" alt="loc">
+          <p mb-0> 2/141 Vishal Khand Gomti Nagar, Lucknow, Uttar Pradesh, 226010</p>
+        </div>
+        <div class="elem d-flex align-items-center">
+          <img src="../images/icons/call.png" alt="loc">
+          <p> 8755672479</p>
+        </div>
+        <div class="elem d-flex align-items-center">
+          <img src="../images/icons/mail.png" alt="loc">
+          <p>info@medcabprivatelimited.com</p>
+        </div>
+      </div>
+      <div class="copyright  d-flex align-items-center justify-content-start w-100 py-2">
+        <p class="">Copyright 2022 Medcab Care Private Limited</p>
+      </div>
+
     </section>
+  </footer>
 
-    <!-- Our Services -->
-    <section class="our-services"></section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+
+
+
+  <script src="../scripts/footer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

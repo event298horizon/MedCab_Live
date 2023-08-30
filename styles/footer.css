@@ -1,33 +1,53 @@
-* {
+footer * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
-footer p {
+
+:root {
+    --border-clr: #41404D;
+}
+
+.footer {
+    /* padding: 4rem 8rem; */
+    background-color: black;
+    color: rgba(255, 255, 255, 0.829);
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.797);
+}
+
+.footer p {
     margin-bottom: 0 !important;
     font-weight: lighter;
 }
 
-
-.footer {
-    padding: 5rem 10rem;
-    background-color: black;
-    color: white;
-    text-decoration: none;
+.footer section div {
+    border-color: var(--border-clr);
 }
+
 
 .footer section {
     border: 1px solid black;
 }
 
 .footer section .info .show {
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 100%;
+    white-space: nowrap;
+    /* justify-content: space-between; */
+    overflow-x: hidden;
 }
 
 .footer section .infoCard {
-    width: 21%;
+    width: 25%;
+    /* border: 1px solid greenyellow; */
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 .footer section .info .infoCard p{
@@ -44,14 +64,31 @@ footer p {
     width: 60%;
 }
 
-.elem img {
+.footer .elem img {
     height: fit-content;
     margin-right: 1rem;
 }
 
-.elem p {
+.footer .elem p {
     margin-bottom: 0;
 }
 
 
+.footer .availableIn {
+    /* width: ; */
+    height: fit-content;
+}
 
+/* .footer .cities {
+    width: fit-content;  
+} */
+
+.footer .buttons button img {
+    height: 3rem;
+}
+
+.footer .cities #hideShow {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
