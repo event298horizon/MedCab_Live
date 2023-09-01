@@ -11,9 +11,9 @@
   padding: 5rem 0;
   /* margin: auto ; */
 }
-.hospital-availability .facilities h1{
-    margin: 0;
-    font-size: var(--fs-main-heading);
+.hospital-availability .facilities h1 {
+  margin: 0;
+  font-size: var(--fs-main-heading);
 }
 
 .hospital-availability .grid-container {
@@ -72,6 +72,11 @@
     padding: 0;
   }
 }
+@media all and (max-width: 780px) {
+  .hospital-availability .owl-carousel .owl-item:nth-child(odd) {
+    margin-top: 0rem;
+  }
+}
 @media all and (max-width: 650px) {
   .hospital-availability .grid-container {
     width: 100%;
@@ -86,7 +91,5 @@
   }
 }
 @media all and (max-width: 480px) {
-  .hospital-availability .owl-carousel .owl-item:nth-child(odd) {
-    margin-top: 0rem;
-  }
+    
 }

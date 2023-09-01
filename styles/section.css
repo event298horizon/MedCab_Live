@@ -5,6 +5,7 @@
   --green-clr: #5eb689;
   --heading-clr: #41404d;
   --purple-clr: #07164b;
+  --light-text-clr: #40444f;
 
   --fs-main-heading: clamp(2rem, 5vw, 4rem);
   --fs-sub-heading: clamp(2rem, 4vw, 3rem);
@@ -67,9 +68,10 @@ p {
   margin-bottom: 1em;
   font-weight: 700;
 }
-.app-previewBottom .heading .cta {
+.primary-cta {
   font-size: var(--fs-primary-text);
-  padding: 1rem 2rem;
+  padding: .5em 1em;
+  border-radius: 10rem;
   color: var(--primary-clr);
 }
 .app-previewBottom .image-wrapper {
@@ -80,6 +82,13 @@ p {
   gap: 5em;
   padding: 0 4em;
 }
+
+@media all and (max-width: 480px) {
+  .app-previewBottom .image-wrapper {
+    flex-direction: column;
+  }
+}
+
 .app-preview .image-wrapper .preview-image {
   z-index: 1;
 }
