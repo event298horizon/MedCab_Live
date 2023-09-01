@@ -181,6 +181,12 @@ p {
     display: grid;
     place-items: center;
   }
+  .app-preview .preview-image{
+    width: 70%;
+  }
+  .app-preview .owl-carousel .owl-item img{
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 360px) {
@@ -201,5 +207,8 @@ p {
   }
   .app-preview .card p {
     font-size: 3vw;
+  }
+  .app-preview .preview-image{
+    width: 80%;
   }
 }
