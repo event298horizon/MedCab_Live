@@ -3,6 +3,8 @@
   --white-clr: #fff;
   --nav-link-clr: #f89e9e;
   --green-clr: #5eb689;
+  --heading-clr: #41404d;
+  --purple-clr: #07164b;
 
   --fs-main-heading: clamp(2rem, 5vw, 4rem);
   --fs-sub-heading: clamp(2rem, 4vw, 3rem);
@@ -71,7 +73,7 @@ p {
   color: var(--primary-clr);
 }
 .app-previewBottom .image-wrapper {
-  margin-top: 4em;
+  margin-top: 8em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +82,9 @@ p {
 }
 .app-preview .image-wrapper .preview-image {
   z-index: 1;
+}
+.app-preview .preview-image:nth-child(2) {
+  transform: scale(1.2);
 }
 .app-preview .image-wrapper img {
   width: 100%;
@@ -147,6 +152,9 @@ p {
   }
   .app-previewBottom .image-wrapper {
     flex-direction: column;
+  }
+  .app-preview .preview-image:nth-child(2) {
+    transform: scale(1);
   }
 }
 @media all and (max-width: 360px) {

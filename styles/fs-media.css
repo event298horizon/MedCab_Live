@@ -18,8 +18,8 @@
   :root {
     --fs-main-heading: clamp(2.2rem, 3vw, 3.2rem);
     --fs-sub-heading: clamp(1.4rem, 2.5vw, 2.6rem);
-    --fs-primary-text: clamp(1.2rem, 2vw, 1.4rem);
-    --fs-secondary-text: clamp(1.2rem, 1.25vw, 1.1rem);
+    --fs-primary-text: clamp(1.6rem, 2.5vw, 1.8rem);
+    --fs-secondary-text: clamp(1.4rem, 1.5vw, 1.6rem);
   }
 }
 
@@ -27,8 +27,8 @@
   :root {
     --fs-main-heading: clamp(2.2rem, 3vw, 3.2rem);
     --fs-sub-heading: clamp(1.4rem, 2.5vw, 2.6rem);
-    --fs-primary-text: clamp(1.4rem, 2.2vw, 1.6rem);
-    --fs-secondary-text: clamp(1.2rem, 2vw, 1.2rem);
+    --fs-primary-text: clamp(1.8rem, 3vw, 2rem);
+    --fs-secondary-text: clamp(1.4rem, 1.5vw, 1.8rem);
   }
 }
 
