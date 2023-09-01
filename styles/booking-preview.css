@@ -35,9 +35,6 @@
   .booking-preview {
     padding: 3em 0;
   }
-  .booking-previewCarousel .item {
-    /* width: 50%; */
-  }
 }
 @media all and (max-width: 480px) {
   .booking-preview {

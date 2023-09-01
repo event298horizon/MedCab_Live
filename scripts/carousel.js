@@ -1,4 +1,4 @@
-// Services Carousel 
+// Services Carousel
 $(document).ready(function () {
   $(".owl-carousel-services").owlCarousel({
     loop: true,
@@ -13,10 +13,15 @@ $(document).ready(function () {
       },
       800: {
         items: 3,
-      }
+      },
     },
   });
 });
+
+if ($(window).width() >= 480) {
+  $(".app-preview .image-wrapper").removeClass("owl-carousel-services");
+  $(".app-preview .image-wrapper").removeClass("owl-carousel");
+}
 
 // Hospital Facilities Carousel
 $(document).ready(function () {
@@ -40,4 +45,3 @@ $(document).ready(function () {
     },
   });
 });
-
