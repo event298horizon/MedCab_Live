@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../styles/grid-container.css">
     <link rel="stylesheet" href="../styles/download-app.css">
     <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/nav.css">
 
     <!-- font-awesome -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
@@ -19,6 +20,80 @@
 </head>
 
 <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span>
+              <img src="../images/logo.png" class="mb-1" alt="" />
+            </span>
+            MedCab</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/ourServices.html"
+                  >Our Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ambulances</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hospitals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Join Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-ctn-book">
+                <a
+                  class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Book Now</a
+                >
+              </li>
+              <li class="nav-ctn-login text-white">
+                <button
+                  type="button"
+                  class="btn btn-primary nav-link border border-white rounded px-4 py-1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <section class="ourServices d-flex flex-column align-items-center">
 
         <!-- main image -->
