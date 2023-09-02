@@ -38,7 +38,7 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      360: {
+      480: {
         items: 2,
       },
     },

@@ -10,8 +10,19 @@
     width: 100px;
     background: #ccc;
     border-radius: 50%;
+    /* display: inline-block; */
+    margin: auto;
 }
 
 .reviews-carousel .item{
     width: 80%;
+}
+.reviews-carousel .owl-item{
+    display: grid;
+    place-items: center;
+}
+@media all and (max-width: 480px) {
+    .reviews{
+        padding: 2rem 0rem;
+    }
 }
