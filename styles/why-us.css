@@ -1,11 +1,6 @@
 .why-us {
   padding: 5rem;
 }
-.why-us h1 {
-  text-align: center;
-  font-size: var(--fs-main-heading);
-  font-weight: 700;
-}
 .why-usCards {
   display: flex;
   flex-wrap: wrap;

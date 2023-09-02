@@ -101,9 +101,9 @@
     transition: none !important;
     width: auto !important;
   }
-  .app-preview .owl-item {
+  /* .app-preview .owl-item {
     width: auto !important;
-  }
+  } */
 }
 @media all and (max-width: 780px) {
   .app-previewTop {
@@ -125,9 +125,6 @@
   .app-preview .card {
     height: 10rem;
     width: 10rem;
-  }
-  .app-previewBottom .image-wrapper {
-    flex-direction: column;
   }
   .app-preview .preview-image:nth-child(2) {
     transform: scale(1);

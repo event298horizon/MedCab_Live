@@ -8,7 +8,7 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      480: {
+      580: {
         items: 2,
       },
       800: {
@@ -17,9 +17,36 @@ $(document).ready(function () {
     },
   });
 });
+$(document).ready(function () {
+  $(".owl-carousel-preview").owlCarousel({
+    loop: true,
+    margin: 16,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+    },
+  });
+});
+$(document).ready(function () {
+  $(".owl-carousel-reviews").owlCarousel({
+    loop: true,
+    margin: 16,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      360: {
+        items: 2,
+      },
+    },
+  });
+});
 
-if ($(window).width() >= 580) {
-  $(".app-preview .image-wrapper").removeClass("owl-carousel-services");
+if (window.innerWidth > 480) {
+  $(".app-preview .image-wrapper").removeClass("owl-carousel-preview");
   $(".app-preview .image-wrapper").removeClass("owl-carousel");
 }
 

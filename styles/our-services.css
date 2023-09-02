@@ -83,13 +83,7 @@
   overflow-x: hidden;
   /* overflow-x: hidden !important; */
 }
-.btn-view a{
-  text-decoration: none;
-  color: var(--white-clr);
-  padding: .5em 2.5em;
-  border-radius: 10rem;
-  font-size: var(--fs-secondary-text);
-}
+
 .our-services .btn-view a{
   background: var(--primary-clr);
 }

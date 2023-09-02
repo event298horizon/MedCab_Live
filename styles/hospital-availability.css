@@ -60,7 +60,7 @@
 }
 
 .hospital-availability .btn-view a {
-  background: var(--purple-clr);
+  background: var(--dark-blue-clr);
 }
 @media all and (max-width: 1200px) {
   .hospital-availability .grid-container {

@@ -3,14 +3,9 @@
   background: linear-gradient(180deg, #fff 0%, #d3e8e4 50.31%, #fff 100%);
   text-align: center;
 }
-.booking-preview h1 {
-  font-size: var(--fs-main-heading);
-  color: var(--heading-clr);
-  margin-bottom: 1em;
-  font-weight: 700;
-}
+
 .booking-preview .primary-cta {
-  background: var(--heading-clr);
+  background: var(--border-clr);
 }
 .booking-previewCarousel .owl-item {
   display: grid;
