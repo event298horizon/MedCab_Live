@@ -51,6 +51,8 @@ if (window.innerWidth > 480) {
 }
 
 // Hospital Facilities Carousel
+
+//saurabh changes things
 $(document).ready(function () {
   $(".owl-carousel-facilities").owlCarousel({
     loop: true,
