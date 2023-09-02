@@ -16,6 +16,7 @@
   --fs-header: clamp(1.4rem, 1.5vw, 1.4rem);
   --fs-main-heading: clamp(2.4rem, 5vw, 4rem);
   --fs-sub-heading: clamp(2rem, 4vw, 3rem);
+  --fs-title: clamp(2rem, 4vw, 2.3rem);
   --fs-primary-text: clamp(1.4rem, 2.5vw, 1.8rem);
   --fs-secondary-text: clamp(1.2rem, 1.5vw, 1.4rem);
 
@@ -114,6 +115,7 @@ body {
   :root {
     --fs-main-heading: clamp(2.2rem, 3vw, 3.2rem);
     --fs-sub-heading: clamp(1.6rem, 3vw, 2.4rem);
+
     --fs-primary-text: clamp(1.25rem, 2.25vw, 1.6rem);
     --fs-secondary-text: clamp(1.2rem, 1.25vw, 1.2rem);
   }

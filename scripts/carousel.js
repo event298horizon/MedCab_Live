@@ -1,7 +1,7 @@
 // Services Carousel
 $(document).ready(function () {
   $(".owl-carousel-services").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 16,
     nav: false,
     responsive: {
@@ -19,7 +19,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
   $(".owl-carousel-preview").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 16,
     nav: false,
     responsive: {
@@ -31,7 +31,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
   $(".owl-carousel-reviews").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 16,
     nav: false,
     responsive: {
@@ -55,7 +55,7 @@ if (window.innerWidth > 480) {
 //saurabh changes things
 $(document).ready(function () {
   $(".owl-carousel-facilities").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 40,
     nav: false,
     responsive: {
