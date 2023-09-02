@@ -1,6 +1,4 @@
-:root {
-  --fs-header: clamp(1.4rem, 1.5vw, 1.4rem);
-}
+
 .header {
   padding: 5rem 0 10rem 4rem;
   /* display: flex; */

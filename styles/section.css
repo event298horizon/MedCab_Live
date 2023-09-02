@@ -1,29 +1,3 @@
-:root {
-  --primary-clr: #c4364e;
-  --white-clr: #fff;
-  --nav-link-clr: #f89e9e;
-  --green-clr: #5eb689;
-  --heading-clr: #41404d;
-  --purple-clr: #07164b;
-  --light-text-clr: #40444f;
-
-  --fs-main-heading: clamp(2rem, 5vw, 4rem);
-  --fs-sub-heading: clamp(2rem, 4vw, 3rem);
-  --fs-primary-text: clamp(1.4rem, 2.5vw, 1.8rem);
-  /* -fs-secondary-text: ; */
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Lato", sans-serif;
-}
-p {
-  margin: 0;
-}
-
 .app-preview {
   position: relative;
   font-weight: 700;
@@ -43,6 +17,7 @@ p {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: var(--fs-main-heading);
 }
 .app-preview .card {
   height: 15rem;
@@ -131,11 +106,6 @@ p {
   }
 }
 @media all and (max-width: 780px) {
-  :root {
-    --fs-main-heading: clamp(1.8rem, 5vw, 3rem);
-    --fs-sub-heading: clamp(1.6rem, 4vw, 2.4rem);
-    --fs-primary-text: clamp(1.25rem, 2.5vw, 1.6rem);
-  }
   .app-previewTop {
     height: 16rem;
   }
@@ -152,18 +122,6 @@ p {
   }
 }
 @media all and (max-width: 580px) {
-  :root {
-    --fs-main-heading: clamp(1.8rem, 5vw, 3rem);
-    --fs-sub-heading: clamp(1.6rem, 4vw, 2.4rem);
-    --fs-primary-text: clamp(1.25rem, 2.5vw, 1.6rem);
-  }
-}
-@media all and (max-width: 480px) {
-  :root {
-    --fs-main-heading: clamp(1.6rem, 5vw, 2.4rem);
-    --fs-sub-heading: clamp(1.4rem, 4vw, 2.6rem);
-    --fs-primary-text: clamp(1.2rem, 2.5vw, 1.4rem);
-  }
   .app-preview .card {
     height: 10rem;
     width: 10rem;
@@ -181,20 +139,15 @@ p {
     display: grid;
     place-items: center;
   }
-  .app-preview .preview-image{
+  .app-preview .preview-image {
     width: 70%;
   }
-  .app-preview .owl-carousel .owl-item img{
+  .app-preview .owl-carousel .owl-item img {
     width: 100%;
   }
 }
 
 @media all and (max-width: 360px) {
-  :root {
-    --fs-main-heading: clamp(1.4rem, 5vw, 2rem);
-    --fs-sub-heading: clamp(1.2rem, 4vw, 2.4rem);
-    --fs-primary-text: clamp(1rem, 2.5vw, 1.2rem);
-  }
   .app-preview .cards {
     gap: 1rem;
   }
@@ -208,7 +161,7 @@ p {
   .app-preview .card p {
     font-size: 3vw;
   }
-  .app-preview .preview-image{
+  .app-preview .preview-image {
     width: 80%;
   }
 }

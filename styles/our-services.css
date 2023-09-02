@@ -1,15 +1,7 @@
-:root {
-  --section-heading-clr: #41404d;
 
-  --fs-main-heading: clamp(2rem, 5vw, 4rem);
-  --fs-sub-heading: clamp(2rem, 4vw, 3rem);
-  --fs-primary-text: clamp(1.4rem, 2.5vw, 1.8rem);
-  --fs-secondary-text: clamp(1.25rem, 1.8vw, 1.4rem);
-}
 .our-services {
   padding-top: 15rem;
   text-align: center;
-  font-family: "lato", sans-serif;
 }
 .our-services h1 {
   font-size: var(--fs-main-heading);
@@ -31,7 +23,7 @@
   height: 100%;
   padding: 2.5rem;
   border-radius: 2rem;
-  background: white;
+  background: var(--white-clr);
   box-shadow: 0px 4px 20px 0px rgba(34, 62, 162, 0.25);
   text-align: center;
   font-size: var(--fs-secondary-text);

@@ -6,10 +6,6 @@ footer * {
 }
 
 
-:root {
-    --border-clr: #41404D;
-}
-
 .footer {
     /* padding: 4rem 8rem; */
     background-color: black;
