@@ -18,7 +18,7 @@ $(document).ready(function () {
   });
 });
 
-if ($(window).width() >= 480) {
+if ($(window).width() >= 580) {
   $(".app-preview .image-wrapper").removeClass("owl-carousel-services");
   $(".app-preview .image-wrapper").removeClass("owl-carousel");
 }
