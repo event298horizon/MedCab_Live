@@ -116,6 +116,10 @@ body {
   color: var(--border-clr);
 }
 
+.btn-view {
+  margin-top: 2em;
+}
+
 .btn-view a {
   text-decoration: none;
   color: var(--white-clr);
@@ -164,6 +168,4 @@ body {
   }
 }
 
-@media all and (max-width: 480px) {
-  
-}
+@media all and (max-width: 480px) {}
