@@ -1,0 +1,46 @@
+
+
+.download-app {
+    /* border: 10px solid black; */
+    /* background-color: var(--primary-clr); */
+    background-image: url("../images/section-5_our-services_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: auto;     */
+    gap: 5rem;
+    padding: 5rem 0;
+    width: 80%;
+    margin: 5rem 0;
+  }
+  
+  .download-app .label h3 {
+    color: var(white-clr);
+  }
+  
+  .download-app .label .image {
+    width: fit-content;
+  }
+  
+  .download-app .label .image img {
+    height: 2rem;
+  }
+  
+  .download-app .content {
+    gap: 5rem;
+  }
+  
+  @media all and (max-width: 1200px) {
+    .download-app {
+      width: 90%;
+    }
+  
+    .download-app .content .phones img {
+      height: 20rem;
+    }
+  
+    .section-6 .content .downloadBtns .user {
+      gap: 0 !important;
+      border: 10px solid black;
+    }
+  }

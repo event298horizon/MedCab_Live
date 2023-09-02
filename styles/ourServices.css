@@ -247,7 +247,7 @@
   background-color: #f2f2f2;
 }
 
-.accordion-button::after {
+.section-5 .accordion-button::after {
   background-image: none;
   content: "+";
   color: var(--primary-clr);
@@ -259,7 +259,7 @@
   /* height: 2rem; */
   /* display: none; */
 }
-.accordion-button:not(.collapsed)::after {
+.section-5 .accordion-button:not(.collapsed)::after {
   background-image: none;
   content: "−";
   color: var(--primary-clr);
@@ -270,47 +270,4 @@
   /* display: none; */
 }
 
-.section-6 {
-  /* border: 10px solid black; */
-  /* background-color: var(--primary-clr); */
-  background-image: url("../images/section-5_our-services_bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* height: auto;     */
-  gap: 5rem;
-  padding: 5rem 0;
-  width: 80%;
-  margin: 5rem 0;
-}
 
-.section-6 .label h3 {
-  color: var(white-clr);
-}
-
-.section-6 .label .image {
-  width: fit-content;
-}
-
-.section-6 .label .image img {
-  height: 2rem;
-}
-
-.section-6 .content {
-  gap: 5rem;
-}
-
-@media all and (max-width: 1200px) {
-  .section-6 {
-    width: 90%;
-  }
-
-  .section-6 .content .phones img {
-    height: 20rem;
-  }
-
-  .section .content .downloadBtns .user {
-    gap: 0 !important;
-    border: 10px solid black;
-  }
-}

@@ -57,3 +57,8 @@
 .hospitals .grid-container-box .grid-item p {
     font-size: var(--fs-secondary-text)
 }
+
+
+.download-app {
+    margin: auto;
+}
