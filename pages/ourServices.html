@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/grid-container.css">
     <link rel="stylesheet" href="../styles/download-app.css">
-    <!-- <link rel="stylesheet" href="../styles/reset.css"> -->
+    <link rel="stylesheet" href="../styles/reset.css">
 
     <!-- font-awesome -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
@@ -134,7 +134,11 @@
                 </div>
             </div>
             <div class="download-button d-flex justify-content-center">
-                <button class="download btn rounded-pill text-white">Download MedCab App</button>
+                <a
+                href="#"
+                class="text-decoration-none shadow-lg my-2 primary-cta text-white"
+                >Download MedCab App</a
+              >
             </div>
 
         </section>
@@ -339,7 +343,9 @@
                             aria-controls="collapseOne">
                             <div class="d-flex align-items-center">
                                 <img src="../images/Q.png" alt="q">
-                                <p class="ms-3">What payment modes do you accept for booking an ambulance?</p>
+                                <strong>
+                                    <p class="ms-3">What payment modes do you accept for booking an ambulance?</p>
+                                </strong>
                             </div>
                             <!-- <p class="plus-icon">+</p> -->
                         </button>
@@ -367,7 +373,9 @@
                             aria-controls="collapseTwo">
                             <div class="d-flex align-items-center">
                                 <img src="../images/Q.png" alt="q">
-                                <p class="ms-3">What payment modes do you accept for booking an ambulance?</p>
+                                <strong>
+                                    <p class="ms-3">What payment modes do you accept for booking an ambulance?</p>
+                                </strong>
                             </div>
                             <!-- <p class="plus-icon">+</p> -->
                         </button>
@@ -395,7 +403,9 @@
                             aria-expanded="false" aria-controls="collapseThree">
                             <div class="d-flex align-items-center">
                                 <img src="../images/Q.png" alt="q">
-                                <p class="ms-3">What payment modes do you accept for booking an ambulance?</p>
+                                <strong>
+                                    <p class="ms-3">What payment modes do you accept for booking an ambulance?</p>
+                                </strong>
                             </div>
                             <!-- <p class="plus-icon">+</p> -->
                         </button>
@@ -420,13 +430,12 @@
         </section>
 
         <!-- download app -->
-        <section class="section-6 .download-app d-flex flex-column align-items-center">
+        <section class="section-6 download-app d-flex flex-column align-items-center">
             <div class="label d-flex align-items-center">
                 <div class="image me-3">
                     <img src="../images/runningAmbulance.jpg" alt="">
                 </div>
-                <h3 class="text-center fw-bold mb-0">Download MedCab App</h3>
-
+                <h3 class="text-center text-white fw-bold mb-0">Download MedCab App</h3>
             </div>
             <div class="content d-flex align-items-center">
                 <div class="phones d-flex gap-4">
