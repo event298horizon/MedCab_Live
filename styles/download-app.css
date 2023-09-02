@@ -37,6 +37,7 @@
   width: 40%;
 }
 .download-app .downloadBtns {
+  color: var(--border-clr);
   font-size: var(--fs-primary-text);
 }
 @media all and (max-width: 1200px) {

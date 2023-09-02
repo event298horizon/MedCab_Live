@@ -110,6 +110,7 @@
 }
 .ourServices .section-3 .right-content .two,
 .ourServices .section-3 .right-content .three {
+  margin: 1em 0;
   font-size: var(--fs-secondary-text);
 }
 .ourServices .section-3 .left-content {
@@ -213,6 +214,7 @@
   .ourServices .section-3 .right-content .three {
     flex-wrap: wrap;
     /* align-items: center; */
+    margin: 2em 0;
     justify-content: center;
     gap: 2rem;
   }

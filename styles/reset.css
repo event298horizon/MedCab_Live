@@ -106,10 +106,12 @@ body {
 }
 
 .primary-text {
+  color: var(--border-clr);
   font-size: var(--fs-primary-text);
 }
 
 .secondary-text {
+  color: var(--border-clr);
   font-size: var(--fs-secondary-text);
   color: var(--border-clr);
 }
@@ -123,7 +125,7 @@ body {
 }
 
 .primary-cta {
-  padding: .8em 3em;
+  padding: 0.8em 3em;
   background: var(--primary-clr);
   font-size: var(--fs-secondary-text);
   border-radius: 10rem;
