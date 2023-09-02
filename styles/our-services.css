@@ -159,6 +159,9 @@
     width: 80%;
     padding: 2em;
   }
+  .our-servicesCards .our-servicesCard .service-icons{
+    margin: 2em 0;
+  }
 }
 @media all and (max-width: 380px) {
   .our-services .our-servicesCard {
