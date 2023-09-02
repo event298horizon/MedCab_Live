@@ -1,3 +1,17 @@
+:root {
+    --primary-clr: #c4364e;
+  --secondary-clr: #159d89;
+  --green-clr: #5eb689;
+  --white-clr: #fff;
+  --nav-link-clr: #f89e9e;
+  --dark-grey-clr: #252527;
+  --border-light-clr: #e2e2e2;
+  --border-clr: #41404d;
+  --dark-blue-clr: #07164b;
+  --section-heading-clr: #41404d;
+  --light-text-clr: #40444f;
+}
+
 .ourServices * {
   color: var(--border-clr);
 }
@@ -28,12 +42,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: var(white-clr);
+  color: var(--white-clr);
   font-family: var(--ff);
   font-weight: bold;
   text-align: center;
   text-shadow: 0px 4px 8px #0f1f5a;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 /* section-2
@@ -41,8 +55,12 @@
     color: var(white-clr) !important;
 } */
 
-.ourServices .as {
+.ourServices .section-2 .as {
   background-color: var(--primary-clr);
+}
+
+.ourServices .section-2 .chas {
+    background-color: var(--dark-blue-clr);
 }
 
 
@@ -79,29 +97,29 @@
 
 /* section - 3  */
 
-.section-3 {
+.ourServices .section-3 {
   background-color: #f5f5fa;
   padding: 5rem 0;
 }
 
-.section-3 .left-content {
+.ourServices .section-3 .left-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   /* padding: 0 5rem 0 0 !important; */
 }
 
-.section-3 .left-content .ambuCard {
+.ourServices .section-3 .left-content .ambuCard {
   height: 100%;
   width: fit-content;
   padding: 0 1rem;
 }
 
-.section-3 .right-content {
+.ourServices .section-3 .right-content {
   padding: 2rem;
 }
 
-.section-3 .right-content .three {
+.ourServices .section-3 .right-content .three {
   /* display: grid;
     grid-template-columns: repeat(5, 1fr); */
   display: flex;
@@ -113,15 +131,15 @@
   justify-content: space-around;
 }
 
-.section-3 .right-content .three img {
+.ourServices .section-3 .right-content .three img {
   height: 3rem;
 }
 
-.section-3 .right-content .three .card-three {
+.ourServices .section-3 .right-content .three .card-three {
   width: max-content;
 }
 
-.section-3 .download-button button {
+.ourServices .section-3 .download-button button {
   background: var(--primary-clr);
 }
 
@@ -131,29 +149,29 @@
 } */
 
 @media all and (max-width: 1050px) {
-  .section-3 {
+  .ourServices .section-3 {
     font-size: 0.8rem;
   }
 
-  .section-3 .left-content {
+  .ourServices .section-3 .left-content {
     gap: 1rem;
   }
 
-  .section-3 .left-content img {
+  .ourServices .section-3 .left-content img {
     height: 3rem;
   }
 
-  .section-3 .content .right-content {
+  .ourServices .section-3 .content .right-content {
     padding: 1rem;
   }
 
-  .section-3 .content .right-content .three img {
+  .ourServices .section-3 .content .right-content .three img {
     height: 3rem;
   }
 }
 
 @media all and (max-width: 768px) {
-  .section-3 .content {
+  .ourServices .section-3 .content {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -161,34 +179,34 @@
     /* padding:0 2rem; */
   }
 
-  .section-3 .content .left-content {
+  .ourServices .section-3 .content .left-content {
     width: 100% !important;
     padding: 0 !important;
     place-items: center;
   }
 
-  .section-3 .content .left-content .ambuCard {
+  .ourServices .section-3 .content .left-content .ambuCard {
     width: 100%;
   }
 
-  .section-3 .content .right-content {
+  .ourServices .section-3 .content .right-content {
     width: 100% !important;
   }
 }
 
 @media all and (max-width: 550px) {
-  .section-3 .content {
+  .ourServices .section-3 .content {
     margin: 2rem 0 !important;
   }
 
-  .section-3 .right-content .three {
+  .ourServices .section-3 .right-content .three {
     flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
     gap: 2rem;
   }
 
-  .section-3 .right-content .three .card-three {
+  .ourServices .section-3 .right-content .three .card-three {
     width: 20%;
   }
 }
@@ -198,21 +216,21 @@
 } */
 
 @media all and (max-width: 360px) {
-  .section-3 .content .left-content {
+  .ourServices .section-3 .content .left-content {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .section-3 .right-content .three .card-three {
+  .ourServices .section-3 .right-content .three .card-three {
     width: 25%;
   }
 }
 
 @media all and (max-width: 280px) {
-  .section-3 .content .left-content {
+  .ourServices .section-3 .content .left-content {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .section-3 .content .right-content .three {
+  .ourServices .section-3 .content .right-content .three {
     font-size: 0.7rem;
   }
 }
