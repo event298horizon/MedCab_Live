@@ -77,9 +77,6 @@
     padding: 6rem 0;
   }
 
-  .ourServices .serviceHead h1 {
-    /* font-size: 2rem; */
-  }
 }
 
 @media all and (max-width: 500px) {
@@ -126,8 +123,19 @@
   padding: 0 1rem;
 }
 
+.ourServices .section-3 .right-content > div {
+  /* border: 2px solid blue; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .ourServices .section-3 .right-content {
-  padding: 2rem;
+  /* padding: 2rem; */
+  height: auto;
+  /* border: 2px solid red; */
 }
 
 .ourServices .section-3 .right-content .three {
@@ -160,9 +168,7 @@
 } */
 
 @media all and (max-width: 1050px) {
-  .ourServices .section-3 {
-    /* font-size: 0.8rem; */
-  }
+ 
 
   .ourServices .section-3 .left-content {
     gap: 1rem;
@@ -243,9 +249,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .ourServices .section-3 .content .right-content .three {
-    /* font-size: 0.7rem; */
-  }
 }
 
 /* faqs */
