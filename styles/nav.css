@@ -23,6 +23,15 @@
 .nav-item:hover .nav-link {
   color: var(--white-clr);
 }
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image:  url("../images/toggler-icon.png");
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -49,7 +58,9 @@
 
 @media all and (max-width: 480px) {
   .navbar {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
+  }
+  .navbar .navbar-nav {
+    font-size: var(--fs-secondary-text);
   }
 }
-  
