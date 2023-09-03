@@ -7,6 +7,10 @@
 .primary-cta {
   background: var(--border-clr);
 }
+
+.booking-previewCarousel {
+  margin-top: 2em;
+}
 .booking-previewCarousel .owl-item {
   display: grid;
   place-items: center;

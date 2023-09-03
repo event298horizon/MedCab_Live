@@ -139,7 +139,10 @@ footer * {
 
 @media all and (max-width: 400px) {
     .footer {
-        padding: 5rem 3rem;
+        padding: 5rem 1rem;
+    }
+    .footer .address .elem:last-child{
+        flex-direction: column;
     }
 
     .footer section .infoCard {

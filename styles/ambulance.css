@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding: 10rem;
+  padding-bottom: 4em;
 }
 
 .customer-support .grid-container {
@@ -44,9 +44,7 @@
 }
 
 .customer-support .grid-item {
-  background-color: var(--nav-link-clr);
-  /* height: 45rem; */
-  /* width: 30rem; */
+  background-color:var(--light-card-clr);
   padding: 2rem;
   gap: 1rem;
   border-radius: 2rem;

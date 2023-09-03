@@ -1,9 +1,9 @@
-body {
+.blogs-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
 .blog-one {
     width: 90%;
 }
