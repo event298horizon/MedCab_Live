@@ -2,6 +2,18 @@
   padding: 8rem;
 }
 
+.hospitals .section-2 {
+  background: none;
+}
+
+.hospitals .label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .hospitals .text {
   gap: 6rem;
 }

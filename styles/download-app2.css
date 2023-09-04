@@ -1,0 +1,10 @@
+.section-4-5 {
+    background-image: none;
+}
+
+.section-4-5 .user h4 {
+  color: var(--border-clr) !important;
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}

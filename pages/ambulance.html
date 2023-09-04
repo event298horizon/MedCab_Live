@@ -1,104 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- bootstrap css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-    />
-    <!-- custom css -->
-    <link rel="stylesheet" href="../styles/reset.css" />
-    <link rel="stylesheet" href="../styles/nav.css" />
-    <link rel="stylesheet" href="../styles/ambulance.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../styles/footer.css" />
-    <title>Ambulance</title>
-  </head>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
 
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <span>
-            <img src="../images/logo.png" class="mb-1" alt="" />
-          </span>
-          MedCab</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./ourServices.html">Our Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./ambulance.html">Ambulances</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./hospitals.html">Hospitals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./joinus.html">Join Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./blog1.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Us</a>
-            </li>
-            <li class="nav-ctn-book">
-              <a
-                class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Book Now</a
-              >
-            </li>
-            <li class="nav-ctn-login text-white">
-              <button
-                type="button"
-                class="btn btn-primary nav-link border border-white rounded px-4 py-1"
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Login
-              </button>
-            </li>
-          </ul>
-        </div>
+
+  <!-- Crousel Styles -->
+  <link rel="stylesheet" href="../styles/owl-styles/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../styles/owl-styles/owl.theme.default.min.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="../styles/reset.css" />
+  <link rel="stylesheet" href="../styles/nav.css" />
+  <link rel="stylesheet" href="../styles/ambulance.css" />
+  <link rel="stylesheet" href="../styles/ourServices.css">
+  <link rel="stylesheet" href="../styles/booking-preview.css">
+  <link rel="stylesheet" href="../styles/footer.css" />
+  <link rel="stylesheet" href="../styles/download-app.css">
+  <title>Ambulance</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span>
+          <img src="../images/logo.png" class="mb-1" alt="" />
+        </span>
+        MedCab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ourServices.html">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./ambulance.html">Ambulances</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./hospitals.html">Hospitals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./joinus.html">Join Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog1.html">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+          <li class="nav-ctn-book">
+            <a class="nav-link rounded bg-white nav-booknow me-lg-2 mb-2 mb-lg-0 px-3 py-1" href="#" tabindex="-1"
+              aria-disabled="true">Book Now</a>
+          </li>
+          <li class="nav-ctn-login text-white">
+            <button type="button" class="btn btn-primary nav-link border border-white rounded px-4 py-1"
+              data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#" tabindex="-1" aria-disabled="true">
+              Login
+            </button>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <!-- ambulance header -->
     <header class="ambulance-header d-flex">
@@ -119,6 +101,102 @@
         <img src="../images/ambulance-header-img.png" alt="" />
       </div>
     </header>
+
+
+    <!-- ambulance services -->
+    <section class="ourServices d-flex flex-column align-items-center">
+      <section class="ambulance-services section-3 d-flex flex-column align-items-center">
+        <div class="label">
+          <h3 class="text-center fw-bold">Ambulance Services</h3>
+        </div>
+        <div class="content px-md-5 w-100 d-flex gap-5 mt-5 mb-5">
+          <div class="left-content w-50">
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/Component 11-1.png " alt="ambulance" />
+              <p>Basic Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/Component 11.png " alt="ambulance" />
+              <p>Advance Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/Component 11-2.png " alt="ambulance" />
+              <p>ICU Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/blue ambulance.png " alt="ambulance" />
+              <p>Advance Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/transfer ambulance.png " alt="ambulance" />
+              <p>Transfer Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/black ambulance.png" alt="ambulance" />
+              <p>Transfer Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/boat ambulance.png" alt="ambulance" />
+              <p>ICU Ambulance</p>
+            </div>
+            <div
+              class="ambuCard justify-content-center d-flex flex-column align-items-center text-center py-4 py-sm-3 rounded-4 bg-white">
+              <img class="" src="../images/chopper ambulance.png" alt="ambulance" />
+              <p>Transfer Ambulance</p>
+            </div>
+          </div>
+          <div class="right-content w-50 rounded-4 d-flex flex-column justify-content-evenly gap-4">
+            <div class="bg-white rounded-4 py-4 px-2">
+              <div class="one d-flex flex-column align-items-center">
+                <img src="../images/Component 11.png" alt="" />
+                <h4 class="fw-bold text-center">Advance Ambulance</h4>
+              </div>
+              <div class="two">
+                <p class="text-center">
+                  Medical First Responder (MFR) ambulances are the first
+                  responders to any medical emergency. They are equipped with
+                  basic medical equipments and trained medical personnel to
+                  stabilize patients until more advanced care arrives.
+                </p>
+              </div>
+              <div class="three">
+                <div class="card-three cardAmbu d-flex flex-column align-items-center justify-content-center">
+                  <img class="mb-sm-2" src="../images/suitcase.png" alt="" />
+                  <p class="text-center">Emergency Kit</p>
+                </div>
+                <div class="card-three cardAmbu d-flex flex-column align-items-center justify-content-center">
+                  <img class="mb-2" src="../images/Multipara moniter.png" alt="" />
+                  <p class="text-center">Emergency Kit</p>
+                </div>
+                <div class="card-three cardAmbu d-flex flex-column align-items-center justify-content-center">
+                  <img class="mb-2" src="../images/oxygen.png" alt="" />
+                  <p class="text-center">Emergency Kit</p>
+                </div>
+                <div class="card-three cardAmbu d-flex flex-column align-items-center justify-content-center">
+                  <img class="mb-2" src="../images/stretcher.png" alt="" />
+                  <p class="text-center">Emergency Kit</p>
+                </div>
+                <div class="card-three cardAmbu d-flex flex-column align-items-center justify-content-center">
+                  <img class="mb-2" src="../images/wheelchair.png" alt="" />
+                  <p class="text-center">Emergency Kit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="download-button d-flex justify-content-center">
+          <a href="#" class="text-decoration-none shadow-lg my-2 primary-cta text-white">Download MedCab App</a>
+        </div>
+      </section>
+    </section>
+
 
     <!-- customer support facility -->
     <section class="customer-support">
@@ -229,224 +307,274 @@
       </div>
     </section>
 
-    <!-- footer -->
-    <footer class="footer">
-      <section class="d-flex flex-column align-items-center">
-        <div class="cityNames d-flex flex-column w-100 py-4 border-bottom">
-          <div class="d-flex justify-content-between w-100">
-            <div class="cities d-flex flex-column w-100">
-              <div id="hideShow">
-                <p class="secondary-text">
-                  <span class="primary-text fw-bold px-2">AVAILABLE IN </span
-                  >City Name | City Name | City Name | City Name | City Name |
-                  City Name | City Name | City Name | City Name | City Name |
-                  City Name | City Name | City Name | City Name | City Name |
-                  City Name | City Name | City Name | City Name | City Name |
-                  City Name | City Name | City Name | City Name | City Name |
-                  City Name | City Name | City Name | City Name | City Name |
-                  City Name | City Name | City Name | City Name | City Name
-                </p>
-              </div>
 
-              <button
-                onclick="show()"
-                id="hideShowBtn"
-                class="btn text-white shadow-none secondary-text"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#cityCollapse"
-                aria-expanded="false"
-                aria-controls="cityCollapse"
-              >
-                Show more
+
+    <!-- How to Book Ambulance -->
+    <section class="booking-preview">
+      <h1 class="main-heading">How to Book Ambulance</h1>
+      <a href="#" class="text-decoration-none text-white rounded-5 shadow-lg my-2 primary-cta">Download MedCab App</a>
+      <div class="booking-previewCarousel owl-carousel owl-theme owl-carousel-facilities">
+        <div class="item">
+          <img src="../images/book-ambulance-1.png" alt="screenshot of booking process" />
+        </div>
+        <div class="item">
+          <img src="../images/book-ambulance-2.png" alt="screenshot of booking process" />
+        </div>
+        <div class="item">
+          <img src="../images/book-ambulance-3.png" alt="screenshot of booking process" />
+        </div>
+        <div class="item">
+          <img src="../images/book-ambulance-4.png" alt="screenshot of booking process" />
+        </div>
+      </div>
+    </section>
+    <section class="d-flex flex-column align-items-center justify-content-center">
+
+
+    <!-- download app -->
+    <section class="section-6 download-app d-flex flex-column align-items-center">
+      <div class="label d-flex align-items-center">
+        <div class="image me-3">
+          <img src="../images/runningAmbulance.jpg" alt="" />
+        </div>
+        <h3 class="text-center text-white fw-bold mb-0">
+          Download MedCab App
+        </h3>
+      </div>
+      <div class="content d-flex align-items-center">
+        <div class="phones d-flex gap-4">
+          <img src="../images/Nothing Phone 1.png" alt="" />
+          <img src="../images/Nothing Phone 2.png" alt="" />
+        </div>
+        <div class="downloadBtns d-flex flex-column gap-5">
+          <div class="user d-flex flex-column gap-3">
+            <h4 class="text-white fw-bold">MedCab App</h4>
+            <div class="btns d-flex gap-3">
+              <button class="btn px-0">
+                <img src="../images/Google Play.png" alt="" />
+              </button>
+              <button class="btn px-0">
+                <img src="../images/app-store.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="user d-flex flex-column gap-3">
+            <h4 class="text-white fw-bold">Driver App</h4>
+            <div class="btns d-flex gap-3">
+              <button class="btn px-0">
+                <img src="../images/Google Play.png" alt="" />
+              </button>
+              <button class="btn px-0">
+                <img src="../images/app-store.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="user d-flex flex-column gap-3">
+            <h4 class="text-white fw-bold">Partner App</h4>
+            <div class="btns d-flex gap-3">
+              <button class="btn px-0">
+                <img src="../images/Google Play.png" alt="" />
+              </button>
+              <button class="btn px-0">
+                <img src="../images/app-store.png" alt="" />
               </button>
             </div>
           </div>
         </div>
-        <div
-          class="bookAmbulance d-flex flex-column align-items-center py-4 w-100 border-bottom"
-        >
-          <div>
-            <h6 class="primary-text fw-bold py-3 text-center">
-              BOOK AMBULANCE
-            </h6>
-          </div>
-          <div class="text-center">
-            <a href="">Basic Ambulace |</a>
-            <a href="">Advance Ambulace |</a>
-            <a href="">ICU Ambulace |</a>
-            <a href="">E-Ambulace |</a>
-            <a href="">Medical First Responder |</a>
-            <a href="">Rent Ambulace |</a>
-            <a href="">Bulk Ambulace</a>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <section class="d-flex flex-column align-items-center">
+      <div class="cityNames d-flex flex-column w-100 py-4 border-bottom">
+        <div class="d-flex justify-content-between w-100">
+          <div class="cities d-flex flex-column w-100">
+            <div id="hideShow">
+              <p class="secondary-text">
+                <span class="primary-text fw-bold px-2">AVAILABLE IN </span>City Name | City Name | City Name | City
+                Name | City Name |
+                City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name |
+                City Name | City Name | City Name | City Name | City Name
+              </p>
+            </div>
+
+            <button onclick="show()" id="hideShowBtn" class="btn text-white shadow-none secondary-text" type="button"
+              data-bs-toggle="collapse" data-bs-target="#cityCollapse" aria-expanded="false"
+              aria-controls="cityCollapse">
+              Show more
+            </button>
           </div>
         </div>
-        <div class="info w-100 d-flex flex-column py-4 border-bottom">
-          <div class="show mb-2">
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
-            <div class="infoCard">
-              <h6 class="primary-text fw-bold">INFO</h6>
-              <p>Privacy Policy</p>
-              <p>Refund Policy</p>
-              <p>Cancellation Policy</p>
-              <p>Guidelines</p>
-              <p>Terms & Conditions</p>
-            </div>
+      </div>
+      <div class="bookAmbulance d-flex flex-column align-items-center py-4 w-100 border-bottom">
+        <div>
+          <h6 class="primary-text fw-bold py-3 text-center">
+            BOOK AMBULANCE
+          </h6>
+        </div>
+        <div class="text-center">
+          <a href="">Basic Ambulace |</a>
+          <a href="">Advance Ambulace |</a>
+          <a href="">ICU Ambulace |</a>
+          <a href="">E-Ambulace |</a>
+          <a href="">Medical First Responder |</a>
+          <a href="">Rent Ambulace |</a>
+          <a href="">Bulk Ambulace</a>
+        </div>
+      </div>
+      <div class="info w-100 d-flex flex-column py-4 border-bottom">
+        <div class="show mb-2">
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
           </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="infoCard">
+            <h6 class="primary-text fw-bold">INFO</h6>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Cancellation Policy</p>
+            <p>Guidelines</p>
+            <p>Terms & Conditions</p>
+          </div>
+        </div>
 
-          <button
-            onclick="showMoreInfo()"
-            id="infoBtn"
-            class="btn text-white text-none shadow-none secondary-text"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#infoCollapse"
-            aria-expanded="false"
-            aria-controls="infoCollapse"
-          >
-            Show more
+        <button onclick="showMoreInfo()" id="infoBtn" class="btn text-white text-none shadow-none secondary-text"
+          type="button" data-bs-toggle="collapse" data-bs-target="#infoCollapse" aria-expanded="false"
+          aria-controls="infoCollapse">
+          Show more
+        </button>
+      </div>
+      <div class="downloadApp d-flex w-100 py-4 border-bottom justify-content-between">
+        <div class="buttons">
+          <button class="btn shadow-none">
+            <img src="../images/playBtn.png" alt="play store" />
+          </button>
+          <button class="btn shadow-none">
+            <img src="../images/appBtn.png" alt="" />
           </button>
         </div>
-        <div
-          class="downloadApp d-flex w-100 py-4 border-bottom justify-content-between"
-        >
-          <div class="buttons">
-            <button class="btn shadow-none">
-              <img src="../images/playBtn.png" alt="play store" />
-            </button>
-            <button class="btn shadow-none">
-              <img src="../images/appBtn.png" alt="" />
-            </button>
-          </div>
-          <div
-            class="socials d-flex gap-3 align-items-center justify-content-end gap-1 py-4"
-          >
-            <img src="../images/icons/facebook.png" alt="" />
-            <img src="../images/icons/insta.png" alt="" />
-            <img src="../images/icons/insta.png" alt="" />
-            <img src="../images/icons/linkedin.png" alt="" />
-            <img src="../images/icons/linkedin.png" alt="" />
-            <img src="../images/icons/twitter.png" alt="" />
-          </div>
+        <div class="socials d-flex gap-3 align-items-center justify-content-end gap-1 py-4">
+          <img src="../images/icons/facebook.png" alt="" />
+          <img src="../images/icons/insta.png" alt="" />
+          <img src="../images/icons/insta.png" alt="" />
+          <img src="../images/icons/linkedin.png" alt="" />
+          <img src="../images/icons/linkedin.png" alt="" />
+          <img src="../images/icons/twitter.png" alt="" />
         </div>
-        <div
-          class="contact d-flex justify-content-center w-100 py-4 border-bottom"
-        >
-          <p class="text-center">
-            <span
-              ><a href="">Contact Us |</a><a href=""> Terms of Use |</a
-              ><a href=""> Privacy Policy |</a><a href=""> Refund Policy |</a
-              ><a href=""> Service Legal Agreement for Vendor/ Driver |</a
-              ><a href=""> Career |</a><a href=""> Mobile App |</a
-              ><a href=""> Media Coverage |</a><a href=""> B2B Partner</a></span
-            >
+      </div>
+      <div class="contact d-flex justify-content-center w-100 py-4 border-bottom">
+        <p class="text-center">
+          <span><a href="">Contact Us |</a><a href=""> Terms of Use |</a><a href=""> Privacy Policy |</a><a href="">
+              Refund Policy |</a><a href=""> Service Legal Agreement for Vendor/ Driver |</a><a href=""> Career |</a><a
+              href=""> Mobile App |</a><a href=""> Media Coverage |</a><a href=""> B2B Partner</a></span>
+        </p>
+      </div>
+      <div class="address d-flex w-100 py-4 border-bottom justify-content-center">
+        <div class="elem d-flex align-items-center">
+          <img src="../images/icons/location.png" alt="loc" />
+          <p>
+            2/141 Vishal Khand Gomti Nagar, Lucknow, Uttar Pradesh, 226010
           </p>
         </div>
-        <div
-          class="address d-flex w-100 py-4 border-bottom justify-content-center"
-        >
-          <div class="elem d-flex align-items-center">
-            <img src="../images/icons/location.png" alt="loc" />
-            <p>
-              2/141 Vishal Khand Gomti Nagar, Lucknow, Uttar Pradesh, 226010
-            </p>
-          </div>
-          <div class="elem d-flex align-items-center">
-            <img src="../images/icons/call.png" alt="loc" />
-            <p>8755672479</p>
-          </div>
-          <div class="elem d-flex align-items-center">
-            <img src="../images/icons/mail.png" alt="loc" />
-            <p>info@medcabprivatelimited.com</p>
-          </div>
+        <div class="elem d-flex align-items-center">
+          <img src="../images/icons/call.png" alt="loc" />
+          <p>8755672479</p>
         </div>
-        <div
-          class="copyright d-flex align-items-center justify-content-center w-100 py-4"
-        >
-          <p class="text-center">Copyright 2022 Medcab Care Private Limited</p>
+        <div class="elem d-flex align-items-center">
+          <img src="../images/icons/mail.png" alt="loc" />
+          <p>info@medcabprivatelimited.com</p>
         </div>
-      </section>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../scripts/footer.js"></script>
+      </div>
+      <div class="copyright d-flex align-items-center justify-content-center w-100 py-4">
+        <p class="text-center">Copyright 2022 Medcab Care Private Limited</p>
+      </div>
+    </section>
+  </footer>
 
-    <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Owl Crousel -->
+  <script src="../scripts/carousel.js"></script>
+  <script src="../scripts/OwlCarousel/owl.carousel.js"></script>
+  <script src="../scripts/OwlCarousel/owl.carousel.min.js"></script>
 
-    <!-- Jquery -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- Owl Crousel -->
-    <script src="../scripts/carousel.js"></script>
-    <script src="../scripts/OwlCarousel/owl.carousel.js"></script>
-    <script src="../scripts/OwlCarousel/owl.carousel.min.js"></script>
-  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <script src="../scripts/footer.js"></script>
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Owl Crousel -->
+  <script src="../scripts/carousel.js"></script>
+  <script src="../scripts/OwlCarousel/owl.carousel.js"></script>
+  <script src="../scripts/OwlCarousel/owl.carousel.min.js"></script>
+</body>
+
 </html>
