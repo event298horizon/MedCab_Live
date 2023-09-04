@@ -1,88 +1,22 @@
-
-.navbar {
-  padding: 0.5rem 4rem;
-  background: #c4364e;
-  color: var(--nav-link);
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-.navbar-nav {
-  margin-left: auto;
-}
-.navbar .nav-link {
-  color: var(--nav-link-clr);
-  margin: 0 0.5rem;
-}
-.navbar .nav-link.active {
-  color: var(--white-clr);
-}
-.navbar-brand {
-  font-size: clamp(2rem, 2vw, 2.5rem);
-}
-.navbar-brand,
-.navbar-brand:hover,
-.nav-item:hover .nav-link {
-  color: var(--white-clr);
-}
-.navbar-collapse {
-  flex-grow: 0;
-}
-.navbar .nav-booknow {
-  color: var(--primary-clr);
-}
-.nav-ctn-login .nav-link {
-  color: var(--white-clr);
-  margin: 0 0.4rem;
-}
-.nav-ctn-login:hover a {
-  background: var(--white-clr);
-  color: var(--primary-clr);
-}
-
-@media all and (max-width: 1100px) {
-  .navbar {
-    font-size: 1.25rem;
-  }
-}
-
-@media all and (max-width: 780px) {
-}
-
-@media all and (max-width: 480px) {
-  .navbar {
-    padding: 0.5rem  1rem;
-}
-}
-
-/* Nav Bar closed*/
 /* JOin Us */
 .join-us {
-  padding: 10px 0px 190px 20px;
+  padding: 4em 2em;
 }
 
-.join-top-left{
-  font-family: var(--lato-font);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  margin-top: 20px;
-  color: var(--text-color);
-}
-
-.join-top-right{
-  
-  /* height: 250px; */
-  /* background-color: #D3E8E4; */
+.join-top-left {
+  font-size: var(--fs-main-heading);
+  font-weight: 700;
+  margin-top: 5rem;
 }
 
 .join-as-col {
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .join-ambulance,
 .join-partner,
 .join-hospital {
-  padding: 80px 20px;
+  padding: 4em 2em;
 }
 
 .join-info-box {
@@ -91,37 +25,30 @@
   justify-content: start;
   align-items: center;
   flex-direction: row;
-  padding: 19px 20px;
-  /* width: 341px; */
-
-  background: #C5354F;
+  padding: 2em;
+  background: var(--primary-clr);
   border-radius: 16px;
   gap: 20px;
 }
 
 .join-info-img {
   display: inline-block;
-  background: #F9E4E4;
+  background: #f9e4e4;
   border-radius: 50%;
-
 }
 
 .join-info-detail {
-
   color: white;
-  font-size: 20px;
+  font-size: var(--fs-title);
   font-weight: 700;
-  line-height: 28px;
 }
-
 .join-ambu-container,
 .join-ptr-container,
 .join-hpl-container {
   position: relative;
-  border: 7px solid #F9E4E4;
+  border: 7px solid #f9e4e4;
   border-radius: 20px;
   padding: 40px;
-
 }
 
 .join-ambu-top,
@@ -146,10 +73,9 @@
   align-items: center;
   height: 140px;
   width: 140px;
-  border: 7px solid #F9E4E4;
+  border: 7px solid #f9e4e4;
   background-color: white;
   border-radius: 50%;
-
 }
 
 .join-ambu-top-desc,
@@ -162,8 +88,8 @@
   gap: 12px;
 }
 
-.join-ambu-top-desc>h3,
-.join-ptr-top-desc>h3,
+.join-ambu-top-desc > h3,
+.join-ptr-top-desc > h3,
 .join-hpl-top-desc {
   font-family: var(--lato-font);
   font-style: normal;
@@ -172,7 +98,6 @@
   line-height: 110%;
   text-align: center;
   color: var(--text-color);
-
 }
 
 .join-ambu-box-container {
@@ -206,7 +131,6 @@
   line-height: 25px;
   color: var(--text-color);
   text-align: center;
-
 }
 
 ul.join-ambu-box-list {
@@ -225,7 +149,7 @@ ul.join-ambu-box-list {
 }
 
 .button {
-  background-color: #C5354F;
+  background-color: #c5354f;
   /* Green */
   border: none;
   color: white;
@@ -233,7 +157,7 @@ ul.join-ambu-box-list {
   text-decoration: none;
   display: inline-block;
   width: max-content;
-  padding: .8rem 2rem;
+  padding: 0.8rem 2rem;
   font-size: 15px;
   margin: auto;
   cursor: pointer;
@@ -241,3 +165,14 @@ ul.join-ambu-box-list {
 }
 
 /* Join Us */
+@media all and (max-width: 480px) {
+  .join-us{
+    padding: 2em 1em;
+  }
+  .join-top-left {
+    margin-top: 0;
+  }
+  .join-info-box {
+    padding: 1em 2em;
+  }
+}
