@@ -1,18 +1,4 @@
-/* nav bar*/
-:root {
-  --primary-clr: #c4364e;
-  --secondary-clr: #159d89;
-  --white-clr: #fff;
-  --nav-link-clr: #f89e9e;
-  --dark-grey-clr: #252527;
-  --border-light-clr: #e2e2e2;
-}
-body {
-  font-family: "Lato", sans-serif;
-}
-html {
-  font-size: 55.5%;
-}
+
 .navbar {
   padding: 0.5rem 4rem;
   background: #c4364e;
