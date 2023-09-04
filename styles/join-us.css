@@ -1,0 +1,257 @@
+/* nav bar*/
+:root {
+  --primary-clr: #c4364e;
+  --secondary-clr: #159d89;
+  --white-clr: #fff;
+  --nav-link-clr: #f89e9e;
+  --dark-grey-clr: #252527;
+  --border-light-clr: #e2e2e2;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+html {
+  font-size: 55.5%;
+}
+.navbar {
+  padding: 0.5rem 4rem;
+  background: #c4364e;
+  color: var(--nav-link);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar .nav-link {
+  color: var(--nav-link-clr);
+  margin: 0 0.5rem;
+}
+.navbar .nav-link.active {
+  color: var(--white-clr);
+}
+.navbar-brand {
+  font-size: clamp(2rem, 2vw, 2.5rem);
+}
+.navbar-brand,
+.navbar-brand:hover,
+.nav-item:hover .nav-link {
+  color: var(--white-clr);
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar .nav-booknow {
+  color: var(--primary-clr);
+}
+.nav-ctn-login .nav-link {
+  color: var(--white-clr);
+  margin: 0 0.4rem;
+}
+.nav-ctn-login:hover a {
+  background: var(--white-clr);
+  color: var(--primary-clr);
+}
+
+@media all and (max-width: 1100px) {
+  .navbar {
+    font-size: 1.25rem;
+  }
+}
+
+@media all and (max-width: 780px) {
+}
+
+@media all and (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem  1rem;
+}
+}
+
+/* Nav Bar closed*/
+/* JOin Us */
+.join-us {
+  padding: 10px 0px 190px 20px;
+}
+
+.join-top-left{
+  font-family: var(--lato-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.join-top-right{
+  
+  /* height: 250px; */
+  /* background-color: #D3E8E4; */
+}
+
+.join-as-col {
+  padding: 15px;
+}
+
+.join-ambulance,
+.join-partner,
+.join-hospital {
+  padding: 80px 20px;
+}
+
+.join-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  padding: 19px 20px;
+  /* width: 341px; */
+
+  background: #C5354F;
+  border-radius: 16px;
+  gap: 20px;
+}
+
+.join-info-img {
+  display: inline-block;
+  background: #F9E4E4;
+  border-radius: 50%;
+
+}
+
+.join-info-detail {
+
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.join-ambu-container,
+.join-ptr-container,
+.join-hpl-container {
+  position: relative;
+  border: 7px solid #F9E4E4;
+  border-radius: 20px;
+  padding: 40px;
+
+}
+
+.join-ambu-top,
+.join-ptr-top,
+.join-hpl-top {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -120px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.join-ambu-top-img,
+.join-ptr-top-img,
+.join-hpl-top-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  border: 7px solid #F9E4E4;
+  background-color: white;
+  border-radius: 50%;
+
+}
+
+.join-ambu-top-desc,
+.join-ptr-top-desc,
+.join-hpl-top-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.join-ambu-top-desc>h3,
+.join-ptr-top-desc>h3,
+.join-hpl-top-desc {
+  font-family: var(--lato-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 110%;
+  text-align: center;
+  color: var(--text-color);
+
+}
+
+.join-ambu-box-container {
+  margin-top: -105px;
+}
+
+.join-ptr-box-container {
+  margin-top: 0px;
+}
+
+.join-hpl-box-container {
+  margin-top: -80px;
+}
+
+.join-ambu-box,
+.join-ptr-box,
+.join-hpl-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.join-box-heading,
+.join-box-heading,
+.join-box-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--text-color);
+  text-align: center;
+
+}
+
+ul.join-ambu-box-list {
+  width: 100%;
+}
+
+.join-ambu-box-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--text-color);
+  display: flex;
+  justify-self: flex-start;
+  flex-wrap: nowrap;
+  align-items: first baseline;
+}
+
+.button {
+  background-color: #C5354F;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: max-content;
+  padding: .8rem 2rem;
+  font-size: 15px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+/* Join Us */
